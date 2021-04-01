@@ -1,0 +1,32 @@
+
+- name: "Targeted Evolution"
+  weight: 2
+  value: 3
+  chance: 3
+  type: Blessing
+  review: "It's not a big boost, but it's not very competitive."
+
+- name: "Precognition"
+  weight: 1
+  value: 5
+  chance: 1
+  type: Blessing
+  review: "A big boost, but everyone wants it!"
+
+- name: Infuse (Lady Matsuma)
+  weight: 2
+  value: 4
+  type: Will
+  review: "Strong players win games."
+
+- name: Trust
+  weight: 0
+  value: 2
+  type: Will
+  review: "So far, Trust has has fairly weak effects"
+
+- name: Revoke
+  weight: 0
+  value: 1
+  type: Will
+  review: "We like our players very much!"
