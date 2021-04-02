@@ -1,0 +1,40 @@
+<h1>Voting Guide</h1>
+{% assign total_weight = 0 %}
+{% for option in site.data.options %}
+  {% assign total_weight = total_weight | plus: option.weight %}
+{% endfor %}
+
+{% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse %}
+{% for option in ordered_options %}
+<h3>{{option.name}}</h3>
+Value: 
+{% case option.value %}
+    {% when 1 %}
+        Harmful
+    {% when 2 %}
+        Neutral
+    {% when 3 %}
+        Small Benefit
+    {% when 4 %}
+        Moderate Benefit
+    {% when 5 %}
+        Large Benefit
+{% endcase %}<br/>
+{% if option.type != "Will" %}
+  Chance of Winning:  
+  {% case option.chance %}
+      {% when 1 %}
+          Low
+      {% when 2 %}
+          Medium
+      {% when 3 %}
+          High
+  {% endcase %}
+  <br/>
+{% endif %}
+{% if option.weight > 0 %}
+Recommended vote share: {{option.weight | times: 100.0 | divided_by: total_weight | round}}%<br/>
+{% endif %}
+<br/>
+{{option.review}}
+{% endfor %}
