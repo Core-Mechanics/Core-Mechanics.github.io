@@ -19,7 +19,7 @@
 - name: "Soul Swap"
   weight: 0
   value: 1
-  chance: 1
+  chance: 3
   type: Blessing
   review: "Re-rolls have historically resulted in relatively low stats, and some of our low-star players have well-optimised stat distributions behind the scenes that we risk losing."
 
