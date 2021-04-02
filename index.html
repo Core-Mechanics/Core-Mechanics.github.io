@@ -7,7 +7,7 @@ title: Voting Guide
 
 <h1>Voting Guide (Season {{ site.data.settings["season"].number }})</h1>
 
-{% if site.data.settings["season"].finalised == 'yes'  %}
+{% if site.data.settings["season"].finalised != 0  %}
   <ul>
     <li>If you want a quick recommendation for how to spend your votes, take a look at the <a href="{% link calculator.html %}">voting calculator</a>.</li>
     <li>The suggested values are based on the analysis in our detailed <a href="{% link ratings.html %}">ratings</a>.</li>
