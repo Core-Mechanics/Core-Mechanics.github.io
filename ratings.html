@@ -5,18 +5,16 @@ title: Election Ratings
 
 <link rel="stylesheet" href="/assets/css/mechanics.css">
 
-<h1>Election Ratings (Season {{ site.data.settings["season"].number }})</h1>
-
-{% if !site.data.settings["season"].finalised %}
-  <div class="warning">The season is still in progress, and a lot can change during a game of Blaseball. If possible, we recommend waiting until the weekend before voting, to avoid being caught out!</div>
-{% endif %}
-
 {% assign total_weight = 0 %}
-{% assign all_evaluated = true %}
 {% for option in site.data.options %}
   {% assign total_weight = total_weight | plus: option.weight %}
-  {% assign all_evaluated = all_evaluated and option.value ! = 0 %}
 {% endfor %}
+
+<h1>Election Ratings (Season {{ site.data.settings["season"].number }})</h1>
+
+{% if site.data.settings["season"].finalised != 'yes'  %}
+  <div class="warning">The season is still in progress, and a lot can change during a game of Blaseball. If possible, we recommend waiting until the weekend before voting, to avoid being caught out!</div>
+{% endif %}
 
 {% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse %}
 {% for option in ordered_options %}
@@ -53,7 +51,7 @@ title: Election Ratings
       </strong>
     </div>
   {% endif %}
-  {% if all_evaluated and option.weight > 0 %}
+  {% if option.weight > 0 %}
     <div class="vote-share">
       Recommended vote share: <strong>{{option.weight | times: 100.0 | divided_by: total_weight | round}}%</strong><br/>
     </div>
@@ -66,7 +64,7 @@ title: Election Ratings
   <hr/>
 {% endfor %}
 
-{% if site.data.settings["season"].finalised %}
+{% if site.data.settings["season"].finalised == 'yes' %}
   <p>
     Looking for help dividing up your votes? Try the <a href="{% link calculator.html %}">voting calculator</a>.
     Once you're done voting, please record your results <a href="{{ site.data.settings['season'].formUrl }}">here</a> to help us plan for future seasons.

@@ -1,11 +1,14 @@
 - question: "What if I want to vote for something else?"
-  answer: "Go for it! The idea behind this guide is to help people who want a quick recommendation, or who are interested in coordinating with other players to optimise the team. If you want to to do something different, that's absolutely fine (please record your votes anyway, though - it's all useful to know!)"
+  answer: "Go for it! The idea behind this guide is to help people who want a quick recommendation, or who are interested in coordinating with other players to optimise the team. If you want to to do something different, that's absolutely fine, though please record your votes anyway - it's all useful information!"
 
 - question: "Is there anything I shouldn't vote for?"
-  answer: "At the end of the day, we're not your parents - anything you want to vote for is fair game. However, it's probably good for the team if you (1) think carefully before voting for any Blessings that we think could actively harm the team and (2) try to avoid anything that might remove a player that the rest of the team is trying to improve. (or vice versa!)"
+  answer: "At the end of the day, we're not your parents - anything you want to vote for is fair game. However, it's probably good for the team if you (1) think carefully before voting for any Blessings that we think could actively harm the team and (2) try to avoid anything that might remove a player that the rest of the team is trying to improve (or vice versa...)"
 
 - question: "Why do you recommend Wills, when they're a raffle within the team anyway?"
-  answer: "There are two big reasons for this. Firstly, this guide is aimed at people who want to use their votes to strengthen the Mechanics. Wills are the most impactful and consistent tool we have for achieving that, so we don't want to leave them out. Secondly, we want to try and avoid situations where we choose two contradictory Wills (e.g. Invoking and Revoking the same player) - letting people know what we're aiming for helps to prevent that! "
+  answer: "There are two big reasons for this. Firstly, this guide is aimed at people who want to use their votes to strengthen the Mechanics. Wills are the most impactful and consistent tool we have for achieving that, so we don't want to leave them out. Secondly, we want to try and avoid situations where we choose two contradictory Wills (e.g. Invoking and Revoking the same player) - letting people know what we're aiming for helps to prevent that."
 
 - question: "Why aren't you recommending X?"
   answer: "Hopefully the voting guide has more details on our thoughts. However, there are a few general principles that underpin our recommendations. The Mechanics have many fan favourite characters, so we have a preference for improving the team we already have. This means that Wills like Revoke or Foreshadow have to have a big impact to make the cut. We also try to avoid suggestions that could alienate the rest of the league, so we're unlikely to outright recommend necromancy, or one-sided trades using Wills."
+  
+- question: "I think Y should be included in this guide. How can I get it added?"
+  answer: "This guide is compiled based on discussion in the Blaseball discord. Hope over to #strats-mechanics to get involved!"
