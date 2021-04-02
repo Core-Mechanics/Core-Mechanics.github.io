@@ -1,0 +1,14 @@
+---
+layout: page
+title: Core Mechanics
+---
+{% if !site.settings["season"].finalised }
+  <div class="warning">This season's guide is still a work in progress. You can see our thoughts so far <a href="{% link guide.html %}">here</a></div>
+{% else %}
+  <p>
+    If you want a quick recommendation for how to spend your votes, take a look at the <a href="{% link calculator.html %}">voting calculator</a>.
+    The suggested values are based on the analysis in our detailed <a href="{% link guide.html %}">voting guide</a>.
+    To learn more about the team philosophy, check out the <a href="{% link faq.html %}">FAQ</a>.
+    Once you're done voting, please record your results <a href="{% site.settings['season'].formUrl %}">here</a> to help us plan for future seasons.
+  </p>
+{% endif %}

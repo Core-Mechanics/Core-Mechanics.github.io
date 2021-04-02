@@ -1,32 +1,37 @@
 
+- name: "Nut Buton"
+  weight: 0
+  value: 0
+
 - name: "Targeted Evolution"
   weight: 2
   value: 3
   chance: 3
   type: Blessing
-  review: "It's not a big boost, but it's not very competitive."
+  review: "Targeted Evolution doesn't do very much for us (if we're lucky, it might gain us half a star or so), but the value is even lower for most of the other teams."
 
 - name: "Precognition"
   weight: 1
   value: 5
   chance: 1
   type: Blessing
-  review: "A big boost, but everyone wants it!"
+  review: "Precognition is the strongest blessing available, but with the universally-valuable effect and the limited options in this election, we expect it to be highly competitive."
 
-- name: Infuse (Lady Matsuma)
+- name: "Soul Swap"
+  weight: 1
+  value: 0
+  chance: 1
+  type: Blessing
+  review: "Re-rolls have historically resulted in relatively low stats, and some of our low-star players have well-optimised stat distributions behind the scenes that we risk losing."
+
+- name: Infuse (Lady Matsuyama)
   weight: 2
   value: 4
   type: Will
-  review: "Strong players win games."
+  review: "Make Lady strong."
 
-- name: Trust
-  weight: 0
-  value: 2
-  type: Will
-  review: "So far, Trust has has fairly weak effects"
-
-- name: Revoke
+  - name: Enrich
   weight: 0
   value: 1
   type: Will
-  review: "We like our players very much!"
+  review: "Right now, we're unlikely to be a serious competitor, so Enrich will mainly mean we lose out on Party Time next season."

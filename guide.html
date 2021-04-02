@@ -3,29 +3,40 @@ layout: page
 title: Voting Guide
 ---
 <link rel="stylesheet" href="/guide.css">
+<h1>Core Mechanics Voting Guide (Season {% site.settings["season"].number %})</h1>
+
+{% if !site.settings["season"].finalised }
+  <div class="warning">The season is still in progress, and a lot can change during a game of Blaseball. If possible, we recommend waiting until the weekend before voting, to avoid being caught out!</div>
+{% endif %}
+
 {% assign total_weight = 0 %}
+{% assign all_evaluated = true %}
 {% for option in site.data.options %}
   {% assign total_weight = total_weight | plus: option.weight %}
+  {% assign all_evaluated = all_evaluated and option.value ! = 0 %}
 {% endfor %}
 
 {% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse %}
-  {% for option in ordered_options %}
+{% for option in ordered_options %}
+  <hr/>
   <h3>{{option.name}}</h3>
-  <span class="value-{{option.value}}">Value: 
+  <div class="value-{{option.value}}">Value: 
     <strong>{% case option.value %}
+        {% when 0 %}
+            Under Evaluation
         {% when 1 %}
             Harmful
         {% when 2 %}
-            Neutral
+            None
         {% when 3 %}
-            Small Benefit
+            Low
         {% when 4 %}
-            Moderate Benefit
+            Medium
         {% when 5 %}
-            Large Benefit
-  {% endcase %}</strong></span><br/>
-  {% if option.type != "Will" %}
-    <span class="chance-{{option.chance}}">Chance of Winning:  
+            High
+  {% endcase %}</strong></div>
+  {% if option.type != "Will" and option.value != 0 %}
+    <div class="chance-{{option.chance}}">Chance of Winning:  
       <strong>{% case option.chance %}
           {% when 1 %}
               Low
@@ -33,11 +44,22 @@ title: Voting Guide
               Medium
           {% when 3 %}
               High
-    {% endcase %}</strong></span><br/>
+    {% endcase %}</strong></div>
   {% endif %}
-  {% if option.weight > 0 %}
-  Recommended vote share: <strong></strong>{{option.weight | times: 100.0 | divided_by: total_weight | round}}%</strong><br/>
+  {% if all_evaluated and option.weight > 0 }
+    <div class="vote-share">
+      Recommended vote share: <strong>{{option.weight | times: 100.0 | divided_by: total_weight | round}}%</strong><br/>
+    </div>
   {% endif %}
-  <br/>
-  {{option.review}}
+  {% if option.value != 0 }
+    <br/>
+    {{option.review}}
+  {% endif %}
 {% endfor %}
+
+{% if site.settings["season"].finalised }
+  <p>
+    Looking for help dividing up your votes? Try the <a href="{% link calculator.html %}">voting calculator</a>.
+    Once you're done voting, please record your results <a href="{% site.settings['season'].formUrl %}">here</a> to help us plan for future seasons.
+  </p>  
+{% endif %}
