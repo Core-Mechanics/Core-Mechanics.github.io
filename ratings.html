@@ -65,8 +65,8 @@ title: Election Ratings
 {% endfor %}
 
 {% if site.data.settings["season"].finalised != 0 %}
-  <p>
+  <div class="info">
     Looking for help dividing up your votes? Try the <a href="{% link calculator.html %}">voting calculator</a>.
-    Once you're done voting, please record your results <a href="{{ site.data.settings['season'].formUrl }}">here</a> to help us plan for future seasons.
-  </p>  
+    Once you're done voting, please record your results <a href="{{ site.data.settings['season'].formUrl }}">here</a> to help us plan for future seasons!
+  </div>  
 {% endif %}

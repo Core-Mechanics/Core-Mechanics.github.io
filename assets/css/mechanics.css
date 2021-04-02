@@ -1,8 +1,28 @@
+ul {    
+  list-style: none;
+}
+
+li {
+    padding-left: 1rem;
+    text-indent: -0.7rem;
+}
+
+li::before {
+    content: "⚙️ ";
+}
+
 .warning {
-    border: 1px solid goldenrod;
     border-radius: 5px;
     padding: 10px;
     background: lightyellow;
+    border: 1px solid goldenrod;
+}
+
+.info {
+    border-radius: 5px;
+    padding: 10px;
+    background: lightcyan;
+    border: 1px solid skyblue;
 }
 
 .warning::before {
