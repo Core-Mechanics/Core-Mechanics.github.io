@@ -2,4 +2,9 @@
 layout: page
 title: FAQ
 ---
-<h1>FAQ</h1>
+<h1>Frequently Asked Questions</h1>
+{% for question in site.data.faq %}
+  <hr/>
+  <h3>{% question.question %}</h3>
+  <p>{% question.answer %}</p>
+{% endfor %}

@@ -1,3 +1,4 @@
+
 - name: "Nut Buton"
   weight: 0
   value: 0
@@ -23,13 +24,13 @@
   type: Blessing
   review: "Re-rolls have historically resulted in relatively low stats, and some of our low-star players have well-optimised stat distributions behind the scenes that we risk losing."
 
-- name: "Infuse (Lady Matsuyama)"
+- name: Infuse (Lady Matsuyama)
   weight: 2
   value: 4
   type: Will
   review: "Make Lady strong."
 
-- name: "Enrich"
+  - name: Enrich
   weight: 0
   value: 1
   type: Will
