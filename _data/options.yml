@@ -17,8 +17,8 @@
   review: "Precognition is the strongest blessing available, but with the universally-valuable effect and the limited options in this election, we expect it to be highly competitive."
 
 - name: "Soul Swap"
-  weight: 1
-  value: 0
+  weight: 0
+  value: 1
   chance: 1
   type: Blessing
   review: "Re-rolls have historically resulted in relatively low stats, and some of our low-star players have well-optimised stat distributions behind the scenes that we risk losing."
