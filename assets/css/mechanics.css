@@ -52,11 +52,11 @@ li::before {
 }
 
 .chance-1 {
-    color: orange;
+    color: darkorange;
 }
 
 .chance-2 {
-    color: goldenrod;
+    color: darkgoldenrod;
 }
 
 .chance-3 {
@@ -76,7 +76,7 @@ li::before {
 }
 
 .value-3 {
-    color: gold;
+    color: darkgoldenrod;
 }
 
 .value-4 {
