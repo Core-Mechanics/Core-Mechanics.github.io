@@ -4,11 +4,16 @@ title: Home
 ---
 
 <link rel="stylesheet" href="/assets/css/mechanics.css">
-
+<div class="image-container">
+  <img class="logo" src="{{ site.data.settings['art'].logoUrl }}">
+</div>
+<div class="image-credit">
+  Art by <strong>{{ site.data.settings["art"].logoCredit }}</strong>
+</div>
 <h1>Voting Guide (Season {{ site.data.settings["season"].number }})</h1>
 
+<p>Welcome to the Core Mechanics Season {{ site.data.settings["season"].number }} voting guide!</p>
 {% if site.data.settings["season"].finalised != 0  %}
-  <p>Welcome to the Core Mechanics Season {{ site.data.settings["season"].number }} voting guide!</p>
   <ul>
     <li>If you want a quick recommendation for how to spend your votes, go straight to our <a href="{% link calculator.html %}">voting calculator</a>.</li>
     <li>For more detail, take a look at this season's <a href="{% link ratings.html %}">ratings</a>.</li>

@@ -2,3 +2,7 @@ season:
   number: 14
   finalised: 1
   formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfmedBG5nOC-JQewwirlR77ivAWw88zfmXCPNBbEWrsbmlAUg/viewform"
+
+art:
+  logoCredit: "ZweiHawke#0173"
+  logoUrl: "assets/img/logo.png"
