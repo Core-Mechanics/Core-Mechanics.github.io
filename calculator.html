@@ -7,6 +7,7 @@ title: Calculator
 {% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse %}
 
 <h1>Voting Calculator</h1>
+<a href="{% link index.html %}" class="back-link">← Back</a>
 <div class="input-group">
     <label for="vote-input">Votes:</label>
     <input id="vote-input" type="number"/>

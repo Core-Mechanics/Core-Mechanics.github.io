@@ -25,6 +25,12 @@ li::before {
     border: 1px solid skyblue;
 }
 
+.back-link {
+    margin-top: -20px;
+    margin-bottom: 15px;
+    display: block;
+}
+
 .input-group {
     margin-bottom: 10px;
 }

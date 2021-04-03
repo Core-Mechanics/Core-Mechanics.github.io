@@ -11,7 +11,7 @@ title: Election Ratings
 {% endfor %}
 
 <h1>Election Ratings (Season {{ site.data.settings["season"].number }})</h1>
-
+<a href="{% link index.html %}" class="back-link">← Back</a>
 {% if site.data.settings["season"].finalised == 0  %}
   <div class="warning">The season is still in progress, and a lot can change during a game of Blaseball. If possible, we recommend waiting until the weekend before voting, to avoid being caught out!</div>
 {% endif %}
