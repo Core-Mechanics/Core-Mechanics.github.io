@@ -40,11 +40,16 @@ li::before {
     font-weight: bold;
 }
 
-.input-group input {
+.input-group .number-input {
     border-radius: 10px;
     padding: 5px;
     border: 1px solid gray;
-    width: 250px;
+    width: 250px;    
+    text-align: right;
+}
+
+.markdown-body table.voting-table {
+    display: table;
 }
 
 .warning::before {

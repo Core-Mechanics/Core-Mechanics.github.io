@@ -10,9 +10,13 @@ title: Calculator
 <a href="{% link index.html %}" class="back-link">← Back</a>
 <div class="input-group">
     <label for="vote-input">Votes:</label>
-    <input id="vote-input" type="number"/>
+    <input id="vote-input" class="number-input" type="number"/>
 </div>
-<table id="voting-table">
+<div class="input-group">
+    <label for="vote-input">Include Wills:</label>
+    <input id="include-will-input" type="checkbox" checked/>
+</div>
+<table id="voting-table" class="voting-table">
     <tr>
         <th>Option</th>
         <th>Type</th>
@@ -34,49 +38,74 @@ title: Calculator
 </div>  
 
 <script>
-    const weightings = {
+    const weightings = [
         {% for option in ordered_options %}        
             {% if option.weight > 0 %}
-                "{{ forloop.index }}" : {{option.weight}},
+                {
+                    "id": {{ forloop.index }},
+                    "weight": {{ option.weight }},
+                    "type": "{{ option.type }}"
+                },
             {% endif %} 
         {% endfor %}
-    };
-    const totalWeight = sumEntries(weightings);
+    ];
     
     const input = document.getElementById('vote-input');
     input.addEventListener('change', updateVotes);
+    const checkbox = document.getElementById('include-will-input');
+    checkbox.addEventListener('change', updateWills);
 
-    function updateVotes(e) {
-        const votes = parseInt(e.target.value);
+    let votes = 0;
+    let includeWills = true;
 
+    function updateVotes(e) {        
+        votes = parseInt(e.target.value);
+        refresh();
+    }
+
+    function updateWills(e) {        
+        includeWills = e.target.checked;
+        refresh();
+    }
+
+    function refresh() {
         if (isNaN(votes) || votes <= 0) {
-            for (const [key, value] of Object.entries(weightings)) {
-                setField(key, 0)
-            }
+            weightings.forEach(entry => {
+                setField(entry.id, 0)
+            });
             return;
         }
 
+        const validWeightings = includeWills
+            ? weightings
+            : weightings.filter(entry => entry.type != "Will");
+        const totalWeight = validWeightings.reduce((total, weighting) => total + weighting.weight, 0);
+
         voteCounts = {};
         remainders = {};
-        for (const [key, value] of Object.entries(weightings)) {
-            const voteShare = votes * value / totalWeight;
-            voteCounts[key] = Math.floor(voteShare);
-            remainders[key] = voteShare - voteCounts[key];
-        }
+        weightings.forEach(entry => {
+            if (!validWeightings.includes(entry)) {
+                voteCounts[entry.id] = 0;
+                return;
+            }
+            const voteShare = votes * entry.weight / totalWeight;
+            voteCounts[entry.id] = Math.floor(voteShare);
+            remainders[entry.id] = voteShare - voteCounts[entry.id];
+        });
 
         let remainingVotes = votes - sumEntries(voteCounts);
         const orderedRemainders = Object.entries(remainders).sort((a, b) => b[1] - a[1]);
-        for (const [key, remainder] of orderedRemainders) {
+        for (const [id, remainder] of orderedRemainders) {
             if (remainingVotes <= 0) {
                 break;
             }
-            voteCounts[key] += 1;
+            voteCounts[id] += 1;
             remainingVotes -= 1;
         }
 
-        for (const [key, value] of Object.entries(weightings)) {
-            setField(key, voteCounts[key])
-        }
+        weightings.forEach(entry => {
+            setField(entry.id, voteCounts[entry.id])
+        });
     }
 
     function setField(id, value) {
