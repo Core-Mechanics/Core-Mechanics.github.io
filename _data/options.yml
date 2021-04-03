@@ -1,9 +1,10 @@
 - name: "Nut Buton"
+  id: 0
   weight: 0
   value: 0
 
 - name: "Targeted Evolution"
-  weight: 2
+  weight: 4
   value: 3
   chance: 3
   type: Blessing
@@ -34,3 +35,9 @@
   value: 1
   type: Will
   review: "Right now, we're unlikely to be a serious competitor, so Enrich will mainly mean we lose out on Party Time next season."
+  
+- name: "Save for next season"
+  weight: 3
+  value: 3
+  type: Special
+  review: "The options this season aren't great. As a result, we're suggesting people hold some of their votes back, to reinvest next season."

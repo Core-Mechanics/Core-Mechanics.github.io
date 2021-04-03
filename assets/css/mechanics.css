@@ -25,6 +25,22 @@ li::before {
     border: 1px solid skyblue;
 }
 
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.input-group input {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 250px;
+}
+
 .warning::before {
     content: "⚠️";
 }

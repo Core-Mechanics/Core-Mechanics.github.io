@@ -1,8 +1,89 @@
 ---
 layout: default
-title: FAQ
+title: Calculator
 ---
 
 <link rel="stylesheet" href="/assets/css/mechanics.css">
+{% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse %}
 
 <h1>Voting Calculator</h1>
+<div class="input-group">
+    <label for="vote-input">Votes:</label>
+    <input id="vote-input" type="number"/>
+</div>
+<table id="voting-table">
+    <tr>
+        <th>Option</th>
+        <th>Type</th>
+        <th>Votes</th>
+    </tr>
+    {% for option in ordered_options %}        
+        {% if option.weight > 0 %}
+            <tr>
+                <td>{{option.name}}</td>
+                <td>{{option.type}}</td>
+                <td id="votes-{{ forloop.index }}">0</td>
+            </tr>
+        {% endif %} 
+    {% endfor %}
+</table>
+
+<div class="info">
+    Once you're done voting, please record your results <a href="{{ site.data.settings['season'].formUrl }}">here</a> to help us plan for future seasons!
+</div>  
+
+<script>
+    const weightings = {
+        {% for option in ordered_options %}        
+            {% if option.weight > 0 %}
+                "{{ forloop.index }}" : {{option.weight}},
+            {% endif %} 
+        {% endfor %}
+    };
+    const totalWeight = sumEntries(weightings);
+    
+    const input = document.getElementById('vote-input');
+    input.addEventListener('change', updateVotes);
+
+    function updateVotes(e) {
+        const votes = parseInt(e.target.value);
+
+        if (isNaN(votes) || votes <= 0) {
+            for (const [key, value] of Object.entries(weightings)) {
+                setField(key, 0)
+            }
+            return;
+        }
+
+        voteCounts = {};
+        remainders = {};
+        for (const [key, value] of Object.entries(weightings)) {
+            const voteShare = votes * value / totalWeight;
+            voteCounts[key] = Math.floor(voteShare);
+            remainders[key] = voteShare - voteCounts[key];
+        }
+
+        let remainingVotes = votes - sumEntries(voteCounts);
+        const orderedRemainders = Object.entries(remainders).sort((a, b) => b[1] - a[1]);
+        for (const [key, remainder] of orderedRemainders) {
+            if (remainingVotes <= 0) {
+                break;
+            }
+            voteCounts[key] += 1;
+            remainingVotes -= 1;
+        }
+
+        for (const [key, value] of Object.entries(weightings)) {
+            setField(key, voteCounts[key])
+        }
+    }
+
+    function setField(id, value) {
+        const voteCountField = document.getElementById('votes-' + id);
+        voteCountField.innerHTML = value;
+    }
+
+    function sumEntries(target) {
+        return Object.values(target).reduce((a, b) => a + b);
+    }
+</script>

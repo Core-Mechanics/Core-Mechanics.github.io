@@ -37,7 +37,7 @@ title: Election Ratings
       {% endcase %}
     </strong>
   </div>
-  {% if option.type != "Will" and option.value != 0 %}
+  {% if option.type == "Blessing" and option.value != 0 %}
     <div class="chance-{{option.chance}}">Chance of Winning:  
       <strong>
         {% case option.chance %}
@@ -55,7 +55,7 @@ title: Election Ratings
     <div class="vote-share">
       Recommended vote share: <strong>{{option.weight | times: 100.0 | divided_by: total_weight | round}}%</strong><br/>
     </div>
-{% endif %}
+  {% endif %}
 
   {% if option.value != 0 %}
     <br/>
