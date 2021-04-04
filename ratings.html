@@ -3,8 +3,6 @@ layout: page
 title: Election Ratings
 ---
 
-<link rel="stylesheet" href="/assets/css/mechanics.css">
-
 {% assign total_weight = 0 %}
 {% for option in site.data.options %}
   {% assign total_weight = total_weight | plus: option.weight %}
