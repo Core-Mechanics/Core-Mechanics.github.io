@@ -13,12 +13,14 @@ title: Home
 
 <p>Welcome to the Core Mechanics Season {{ site.data.settings["season"].number }} voting guide!</p>
 {% if site.data.settings["season"].finalised != 0  %}
+  <p>If you want advice on how to spend your votes this season, check out the <a href="{% link calculator.html %}">voting calculator</a>, then record your votes at <a href="{{ site.data.settings['season'].formUrl }}"></a></p>
+  <p>If you're looking for more detailed thoughts, have a look at:</p>
   <ul>
-    <li>If you want a quick recommendation for how to spend your votes, go straight to our <a href="{% link calculator.html %}">voting calculator</a>.</li>
-    <li>For more detail, take a look at this season's <a href="{% link ratings.html %}">ratings</a>.</li>
-    <li>To learn more about the team philosophy, check out the <a href="{% link faq.html %}">FAQ</a>.</li>
-    <li>Once you're done voting, please record your results <a href="{{ site.data.settings['season'].formUrl }}">here</a> to help us plan for future seasons.</li>
+    <li>This season's <a href="{% link ratings.html %}">Blessing/Will ratings</a>.</li>
+    <li>The <a href="{% link faq.html %}">FAQ</a></li>
+    <li>The team's <a href="{{ site.data.settings['documents'].strategy }}">strategy document</a></li>
   </ul>
 {% else %}
-  <div class="warning">This season's guide is still a work in progress. You can see our thoughts so far on this season in the <a href="{% link ratings.html %}">ratings</a>, and learn more about our general philosophy in the <a href="{% link faq.html %}">FAQ</a></div>
+  <div class="warning">This season's guide is still a work in progress. You can see our thoughts so far on this season in the <a href="{% link ratings.html %}">ratings</a>, and learn more about our general philosophy in the <a href="{% link faq.html %}">FAQ</a> and <a href="{{ site.data.settings['documents'].strategy }}">strategy document</a></div>
 {% endif %}
+<p>If you want to help contribute to this site, head over to the <a href="https://github.com/Core-Mechanics/Core-Mechanics.github.io">GitHub page</a>.</p>
