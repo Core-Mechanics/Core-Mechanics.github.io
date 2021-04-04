@@ -21,7 +21,7 @@ The easiest place to start out is by editing the file [options.yml](https://gith
   - **value**: How good we think the option is. A 0 marks the option as 'under evaluation', 1 is actively harmful, 2 is neutral, and 3, 4 and 5 are increasing degrees of beneficial.
   - **chance**: Only used for Blessings. This is how likely we think we are to be able to win the Blessing, on a scale of 1 to 3.
   - **type**: What type of option this is. Right now, this will usually be 'Will' or 'Blessing'.
-  - **review**: A short text summary of _why_ we given the option this score.
+  - **review**: A short text summary of _why_ we have given the option this score.
 
 When you're happy with the edit, scroll to the bottom and add a short description of your changes. Then select 'Create a new branch for this commit' and click 'Propose Changes'. Somebody will come along and review your changes for typos etc., then if all's well the changes will be put live.
 
