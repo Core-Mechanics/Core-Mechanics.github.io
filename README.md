@@ -11,6 +11,8 @@ Right now, those tools include:
 
 ## How to help out
 
+Whether you're an experienced web developer or have no idea how any of this works, contributing to the site is very much encouraged. The guide below is hopefully enough to get you started, but feel free to ask questions on the blaseball discord if you need some help!
+
 ### Getting started
 
 The easiest place to start out is by editing the file [options.yml](https://github.com/Core-Mechanics/Core-Mechanics.github.io/blob/main/_data/options.yml). This file contains the data on the voting options on offer in the current season. Each option has the following properties:
