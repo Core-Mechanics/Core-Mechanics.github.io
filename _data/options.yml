@@ -1,43 +1,38 @@
-- name: "Nut Button"
-  id: 0
-  weight: 0
+- name: "Move (Gia Holbrook for Torus McGhee)"
   value: 0
-
-- name: "Targeted Evolution"
-  weight: 4
-  value: 3
-  chance: 3
-  type: Blessing
-  review: "Targeted Evolution doesn't do very much for us (if we're lucky, it might gain us half a star or so), but the value is even lower for most of the other teams."
-
-- name: "Precognition"
-  weight: 1
-  value: 5
-  chance: 1
-  type: Blessing
-  review: "Precognition is the strongest blessing available, but with the universally-valuable effect and the limited options in this election, we expect it to be highly competitive."
-
-- name: "Soul Swap"
-  weight: 0
-  value: 1
-  chance: 3
-  type: Blessing
-  review: "Re-rolls have historically resulted in relatively low stats, and some of our low-star players have well-optimised stat distributions behind the scenes that we risk losing."
-
-- name: "Infuse (Lady Matsuyama)"
-  weight: 2
-  value: 4
   type: Will
-  review: "Make Lady strong."
+  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, but he'd do less harm from there." 
 
-- name: "Enrich"
-  weight: 0
-  value: 1
+- name: "Foreshadow"
+  value: 0
   type: Will
-  review: "Right now, we're unlikely to be a serious competitor, so Enrich will mainly mean we lose out on Party Time next season."
+  review: "This season we might aim to bank one of our stronger players, to set us up for extra party time next season and take advantage of the many buffs that target the shadows in this election." 
+
+- name: "Reform (Jasper + Minimalist)"
+  value: 0
+  type: Will
+  review: "We don't know exactly how Reform works yet, but the possibility of replacing a debuff (even one that doesn't fire very much) with a buff is interesting." 
+
+- name: "Alternate Trust"
+  value: 0
+  type: Will
+  review: "Combining two Wills into one is tempting, but most of our players risk coming out weaker than before as an Alternate."
+
+- name: "Equivalent Exchange/Plunder"
+  value: 0
+  type: Will
+  review: "Trading players can be a sensitive subject - we'll generally only recommend it if there's a plan with agreement from both out and the other team."
+
+- name: "Transfuse"
+  value: 0
+  type: Will
+  review: "A nerfed Infuse is still potentially powerful. Transfuse is better for pitchers than batters, as they are less likely to make use of the lost stars."
+
+- name: "Enrich (Life of the Party)"]
+  value: 0
+  type: Will
+  review: "Right now, we're unlikely to be a serious competitor, so Enrich would mainly benefit us by increasing the benefits of our party time."
   
 - name: "Save for next season"
-  weight: 3
-  value: 3
+  value: 0
   type: Special
-  review: "The options this season aren't great. As a result, we're suggesting people hold some of their votes back, to reinvest next season."
