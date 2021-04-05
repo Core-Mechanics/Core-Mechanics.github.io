@@ -144,7 +144,7 @@
   name: "Move"
   value: 0
   type: Will
-  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, but he'd do less harm from there." 
+  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, but we could also Move him to the Shadows, out of play altogether." 
 
 - key: foreshadow
   name: "Foreshadow"
@@ -164,8 +164,14 @@
   type: Will
   review: "Combining two Wills into one is tempting, but most of our players risk coming out weaker than before as an Alternate."
 
-- key: exchange-and-plunder
-  name: "Equivalent Exchange/Plunder"
+- key: equivalent-exchange
+  name: "Equivalent Exchange"
+  value: 0
+  type: Will
+  review: "Trading players can be a sensitive subject - we'll generally only recommend it if there's a plan with strong support from both teams."
+
+- key: plunder
+  name: "Plunder"
   value: 0
   type: Will
   review: "Trading players can be a sensitive subject - we'll generally only recommend it if there's a plan with strong support from both teams."
