@@ -1,0 +1,30 @@
+---
+layout: default
+title: Stadium Modifications
+---
+
+<h1>Stadium Stats</h1>
+<a href="{% link index.html %}" class="back-link">← Back</a>
+<p>A quick summary of the different stats for a stadium, and whether we think they're good or bad for us.</p>
+{% for stat in site.data.stadium_stats %}
+    <h3>{{stat.name}}</h3>
+    <div class="value-{{stat.value}}">Recommendation: 
+      <strong>
+        {% case stat.value %}]
+          {% when 1 %}
+              Strongly Reduce
+          {% when 2 %}
+              Reduce
+          {% when 3 %}
+              Medium
+          {% when 4 %}
+              Increase
+          {% when 5 %}
+              Strongly Increase
+        {% endcase %}
+      </strong>
+    </div>
+    <br/>
+    <p>{{stat.explanation}}</p>
+    <hr/>
+{% endfor %}
