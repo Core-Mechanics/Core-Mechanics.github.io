@@ -10,11 +10,13 @@
 
 - name: "Middling"
   value: 1
+  chance: 0
   type: Blessing
   review: "Unless we're in good enough form for a title run next season, this will mainly deny us the benefits of Stale Popcorn and Party Time."
 
 - name: "Clutch Up"
   value: 1
+  chance: 0
   type: Blessing
   review: "Unless we're in good enough form for a title run next season, this will mainly deny us the benefits of Stale Popcorn and Party Time."
 
@@ -34,6 +36,7 @@
 
 - name: "Mulligan"
   value: 2
+  chance: 0
   type: Blessing
   review: "Our worst hitter is Evelton McBlase II, who is Romain' and unlikely to stick around forever. That's a bit sad, since Fourth Strike is very powerful."
 
@@ -49,13 +52,13 @@
 
 - name: "Easy Out"
   value: 2
+  chance: 0
   type: Blessing
   review: "Our worst hitter is already last in the lineup."
 
 - name: "Lead Off"
   value: 0
   type: Blessing
-  review: "Our worst hitter is already last in the lineup."
 
 - name: "Blood Pact"
   value: 0

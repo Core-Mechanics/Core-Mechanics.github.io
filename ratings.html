@@ -39,6 +39,8 @@ title: Election Ratings
     <div class="chance-{{option.chance}}">Chance of Winning:  
       <strong>
         {% case option.chance %}
+          {% when 0 %}
+              Not Assessed
           {% when 1 %}
               Low
           {% when 2 %}
