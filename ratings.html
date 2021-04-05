@@ -56,6 +56,10 @@ title: Election Ratings
       Recommended vote share: <strong>{{option.weight | times: 100.0 | divided_by: total_weight | round}}%</strong><br/>
     </div>
   {% endif %}
+  {% if option.definition %}
+    <br/>
+    <em>{{option.definition}}</em>
+  {% endif %}
 
   {% if option.review %}
     <br/>
