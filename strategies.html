@@ -1,0 +1,78 @@
+---
+layout: default
+title: Strategies
+---
+
+<h1>Proposed Strategies</h1>
+<a href="{% link index.html %}" class="back-link">← Back</a>
+{% for strategy in site.data.strategies %}
+    <h3>{{strategy.name}}</h3>
+    <p>{{strategy.description}}</p>
+    <table class="strategy-table">
+        <tr>
+            <th>Option</th>
+            <th>Type</th>
+            <th>Target</th>
+            <th>Value</th>
+            <th>Chance of Winning</th>
+        </tr>
+        {% for strat_option in strategy.options %} 
+            {% for option in site.data.options %} 
+                {% if option.key == strat_option.key %}
+                    <tr>
+                        <td>{{option.name}}</td>
+                        <td>{{option.type}}</td>
+                        {% if strat_option.target %}
+                            <td class="target-present">
+                                {{strat_option.target}}
+                            </td>
+                        {% else %}
+                            <td class="target-absent">
+                                N/A
+                            </td>
+                        {% endif %}
+                        <td class="value-{{option.value}}">
+                            <strong>
+                                {% case option.value %}
+                                    {% when 0 %}
+                                        Under Evaluation
+                                    {% when 1 %}
+                                        Harmful
+                                    {% when 2 %}
+                                        None
+                                    {% when 3 %}
+                                        Low
+                                    {% when 4 %}
+                                        Medium
+                                    {% when 5 %}
+                                        High
+                                {% endcase %}
+                            </strong>
+                        </td>
+                        <td class="chance-{{option.chance | default : 0}}">
+                            <strong>
+                                {% case option.chance %}
+                                    {% when 0 %}
+                                        Not Assessed
+                                    {% when 1 %}
+                                        Low
+                                    {% when 2 %}
+                                        Medium
+                                    {% when 3 %}
+                                        High
+                                    {% else %}
+                                        {% if option.type != "Blessing" %}
+                                            N/A
+                                        {% else %}
+                                            Under Evaluation
+                                        {% endif %}
+                                {% endcase %}
+                            </strong>
+                        </td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </table>
+    <hr/>
+{% endfor %}

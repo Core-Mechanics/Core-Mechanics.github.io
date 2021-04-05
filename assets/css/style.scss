@@ -57,12 +57,16 @@ li::before {
     text-align: right;
 }
 
-.markdown-body table.voting-table {
-    display: table;
+.markdown-body table {
+    display: table !important;
 }
 
 .warning::before {
     content: "⚠️";
+}
+
+.target-absent {
+    color: grey;
 }
 
 .chance-0 {

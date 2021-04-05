@@ -1,121 +1,164 @@
-- name: "Sky's the Limit"
+- key: sky-limit
+  name: "Sky's the Limit"
   value: 0
   type: Blessing
   review: "We don't end up in Maximum Blaseball very much, sadly - this is a big swing when it does happen, though."
 
-- name: "Afterparty"
+- key: afterparty
+  name: "Afterparty"
   value: 0
   type: Blessing
   review: "We need to project what the star gains from this could look like."
 
-- name: "Middling"
+- key: middling
+  name: "Middling"
   value: 1
   chance: 0
   type: Blessing
   review: "Unless we're in good enough form for a title run next season, this will mainly deny us the benefits of Stale Popcorn and Party Time."
 
-- name: "Clutch Up"
+- key: clutch-up
+  name: "Clutch Up"
   value: 1
   chance: 0
   type: Blessing
   review: "Unless we're in good enough form for a title run next season, this will mainly deny us the benefits of Stale Popcorn and Party Time."
 
-- name: "Absolute Zero"
+- key: absolute-zero
+  name: "Absolute Zero"
   value: 0
   type: Blessing
   review: "Historically blood-based blessings have been variable, but the potential ceiling here is _very_ high. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here."
 
-- name: "Water Logged"
+- key: water-logged
+  name: "Water Logged"
   value: 0
   type: Blessing
   review: "Historically blood-based blessings have been variable, but the potential ceiling here is _very_ high. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here."
 
-- name: "Bird Brain"
+- key: bird-brain
+  name: "Bird Brain"
   value: 0
   type: Blessing
 
-- name: "Mulligan"
+- key: mulligan
+  name: "Mulligan"
   value: 2
   chance: 0
   type: Blessing
   review: "Our worst hitter is Evelton McBlase II, who is Romain' and unlikely to stick around forever. That's a bit sad, since Fourth Strike is very powerful."
 
-- name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
+- key: team-buffs
+  name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
   value: 0
   type: Blessing
   review: "These are very small boosts by the standards of historical blessings."
 
-- name: "Shadow Defense Practice/Shadow Running Practice/Shadow Pitching Practice/Shadow Batting Practice"
+- key: shadow-batting
+  name: "Shadow Batting Practice"
   value: 0
   type: Blessing
-  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have 3 strong players currently in our Shadows who could benefit from these."
+  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have 2 strong batters currently in our Shadows who could benefit from this."
 
-- name: "Easy Out"
+- key: shadow-running
+  name: "Shadow Running Practice"
+  value: 0
+  type: Blessing
+  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have 2 strong batters currently in our Shadows who could benefit from this."
+
+- key: shadow-defense
+  name: "Shadow Defense Practice"
+  value: 0
+  type: Blessing
+  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have 3 strong players currently in our Shadows who could benefit from this."
+
+- key: shadow-pitching
+  name: "Shadow Pitching Practice"
+  value: 0
+  type: Blessing
+  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have a strong pitcher currently in our Shadows who could benefit from this."
+
+- key: easy-out
+  name: "Easy Out"
   value: 2
   chance: 0
   type: Blessing
   review: "Our worst hitter is already last in the lineup."
 
-- name: "Lead Off"
+- key: lead-off
+  name: "Lead Off"
   value: 0
   type: Blessing
 
-- name: "Blood Pact"
+- key: blood-pact
+  name: "Blood Pact"
   value: 0
   type: Blessing
 
-- name: "Fringe Benefit"
+- key: fringe-benefit
+  name: "Fringe Benefit"
   value: 0
   type: Blessing
   review: "Perk players play better in coffee weather. This plays well with our stadium, which has increased Coffee 3 weather."
 
-- name: "Epiphany"
+- key: epiphany
+  name: "Epiphany"
   value: 0
   type: Blessing
 
-- name: "Dirty Bulk"
+- key: dirty-bulk
+  name: "Dirty Bulk"
   value: 0
   type: Blessing
 
-- name: "Living Single"
+- key: living-single
+  name: "Living Single"
   value: 0
   type: Blessing
 
-- name: "Triple Crown"
+- key: triple-crown
+  name: "Triple Crown"
   value: 0
   type: Blessing
 
-- name: "Move (Gia Holbrook for Torus McGhee)"
+- key: move
+  name: "Move"
   value: 0
   type: Will
-  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, but he'd do less harm from there." 
+  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, but he'd do less harm from there. Gia Holbrook would make a strong pitcher." 
 
-- name: "Foreshadow"
+- key: foreshadow
+  name: "Foreshadow"
   value: 0
   type: Will
   review: "This season we might aim to bank one of our stronger players, to set us up for extra party time next season and take advantage of the many buffs that target the shadows in this election." 
 
-- name: "Reform (Jasper + Minimalist)"
+- key: reform
+  name: "Reform"
   value: 0
   type: Will
   review: "We don't know exactly how Reform works yet, but the possibility of replacing a debuff (even one that doesn't fire very much) with a buff is interesting." 
 
-- name: "Alternate Trust"
+- key: alternate-trust
+  name: "Alternate Trust"
   value: 0
   type: Will
   review: "Combining two Wills into one is tempting, but most of our players risk coming out weaker than before as an Alternate."
 
-- name: "Equivalent Exchange/Plunder"
+- key: exchange-and-plunder
+  name: "Equivalent Exchange/Plunder"
   value: 0
   type: Will
   review: "Trading players can be a sensitive subject - we'll generally only recommend it if there's a plan with strong support from both teams."
 
-- name: "Transfuse"
+- key: transfuse
+  name: "Transfuse"
   value: 0
   type: Will
   review: "A nerfed Infuse is still potentially powerful. Transfuse is better for pitchers than batters, as they are less likely to make use of the lost stars."
 
-- name: "Enrich (Life of the Party)"
+- key: enrich
+  name: "Enrich"
   value: 0
   type: Will
-  review: "Right now, we're unlikely to be a serious competitor, so Enrich would mainly benefit us by increasing the benefits of our party time."
+  review: "Right now, we're unlikely to be a serious competitor, so Enrich would mainly benefit us by increasing the benefits of our party time through Life of the Party."
