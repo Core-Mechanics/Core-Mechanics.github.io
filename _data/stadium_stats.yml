@@ -2,14 +2,6 @@
   value: 5
   explanation: "Viscosity makes batters more likely to hit the ball, but less likely to hit hard. This suits our strong pitching rotation."
   
-- name: Elongation
-  value: 2
-  explanation: "Elongation reduces stolen bases, which is good for us, but lowering it increases double plays, which is even better."
-  
-- name: Obtuseness
-  value: 2
-  explanation: "Higher obtuseness means more hits and less foul balls. Lowering this helps to emphasise our strong pitching."
-  
 - name: Inconvenience
   value: 5
   explanation: "Increased inconvenience reduces the chance of stolen bases (which we rarely achieve anyway). It also reduces the number of hits"
@@ -22,6 +14,14 @@
   value: 4
   explanation: "Ominousness helps our strong pitchers control the game, by increasing the chance of ground outs and reducing the chance of hard hits."
 
+- name: Elongation
+  value: 2
+  explanation: "Elongation reduces stolen bases, which is good for us, but lowering it increases double plays, which is even better."
+  
+- name: Obtuseness
+  value: 2
+  explanation: "Higher obtuseness means more hits and less foul balls. Lowering this helps to emphasise our strong pitching."
+  
 - name: Mysticism
   value: 3
   explanation: "Mysticism makes _stuff_ happen more. This can be good or bad depending on the effect - Psychoacoustics or party time triggering is good for us, but many weather effects are bad."
