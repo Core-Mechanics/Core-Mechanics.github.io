@@ -48,11 +48,30 @@
   type: Blessing
   review: "Our worst hitter is Evelton McBlase II, who is Romain' and unlikely to stick around forever. That's a bit sad, since Fourth Strike is very powerful."
 
-- key: team-buffs
+- key: team-defense
   name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
   value: 0
   type: Blessing
   review: "These are very small boosts by the standards of historical blessings."
+
+- key: team-running
+  name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
+  value: 0
+  type: Blessing
+  review: "These are very small boosts by the standards of historical blessings."
+
+- key: team-pitching
+  name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
+  value: 0
+  type: Blessing
+  review: "These are very small boosts by the standards of historical blessings."
+
+- key: team-pitching
+  name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
+  value: 0
+  type: Blessing
+  review: "These are very small boosts by the standards of historical blessings."
+
 
 - key: shadow-batting
   name: "Shadow Batting Practice"
@@ -125,7 +144,7 @@
   name: "Move"
   value: 0
   type: Will
-  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, but he'd do less harm from there. Gia Holbrook would make a strong pitcher." 
+  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, but he'd do less harm from there." 
 
 - key: foreshadow
   name: "Foreshadow"

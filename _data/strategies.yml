@@ -1,15 +1,26 @@
 - name: "We Can Break This"
-  description: "Shadow a key player in order to take advantage of the blessings that buff our shadows and maximise next season's party time."
+  description: "Shadow key players in order to take advantage of the blessings that buff our shadows and maximise next season's party time."
   options: 
   - key: foreshadow
-    target: "Zoery Kirchner"
-  - key: enrich
-    target: "Life of the Party"
+    target: "Zoey Kirchner"
+  - key: move
+    target: "Mindy Kugel"
   - key: afterparty
   - key: shadow-batting
   - key: shadow-pitching
   - key: shadow-defense
   - key: shadow-running
+
+- name: "Mob Mentality"
+  description: "Prioritise getting a blood buff and a siphon on the team, followed by boosting our batting power."
+  options: 
+  - key: absolute-zero
+  - key: blood-pact
+  - key: team-batting
+  - key: epiphany
+  - key: dirty-bulk
+  - key: transfuse
+    target: "A batter + batting"
 
 - name: "We Can Rebuild Him (again)"
   description: "Turn Evelton McBlase II into Evelton McBlase III, and make them into a permanent fixture of the team."
