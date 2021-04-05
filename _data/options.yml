@@ -1,3 +1,87 @@
+- name: "Sky's the Limit"
+  value: 0
+  type: Blessing
+  review: "We don't end up in Maximum Blaseball very much, sadly - this is a big swing when it does happen, though."
+
+- name: "Afterparty"
+  value: 0
+  type: Blessing
+  review: "We need to project what the star gains from this could look like."
+
+- name: "Middling"
+  value: 1
+  type: Blessing
+  review: "Unless we're in good enough form for a title run next season, this will mainly deny us the benefits of Stale Popcorn and Party Time."
+
+- name: "Clutch Up"
+  value: 1
+  type: Blessing
+  review: "Unless we're in good enough form for a title run next season, this will mainly deny us the benefits of Stale Popcorn and Party Time."
+
+- name: "Absolute Zero"
+  value: 0
+  type: Blessing
+  review: "Historically blood-based blessings have been variable, but the potential ceiling here is _very_ high. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here."
+
+- name: "Water Logged"
+  value: 0
+  type: Blessing
+  review: "Historically blood-based blessings have been variable, but the potential ceiling here is _very_ high. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here."
+
+- name: "Bird Brain"
+  value: 0
+  type: Blessing
+
+- name: "Mulligan"
+  value: 2
+  type: Blessing
+  review: "Our worst hitter is Evelton McBlase II, who is Romain' and unlikely to stick around forever. That's a bit sad, since Fourth Strike is very powerful."
+
+- name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
+  value: 0
+  type: Blessing
+  review: "These are very small boosts by the standards of historical blessings."
+
+- name: "Shadow Defense Practice/Shadow Running Practice/Shadow Pitching Practice/Shadow Batting Practice"
+  value: 0
+  type: Blessing
+  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have 3 strong players currently in our Shadows who could benefit from these."
+
+- name: "Easy Out"
+  value: 2
+  type: Blessing
+  review: "Our worst hitter is already last in the lineup."
+
+- name: "Lead Off"
+  value: 0
+  type: Blessing
+  review: "Our worst hitter is already last in the lineup."
+
+- name: "Blood Pact"
+  value: 0
+  type: Blessing
+
+- name: "Fringe Benefit"
+  value: 0
+  type: Blessing
+  review: "Perk players play better in coffee weather. This plays well with our stadium, which has increased Coffee 3 weather."
+
+- name: "Epiphany"
+  value: 0
+  type: Blessing
+
+- name: "Dirty Bulk"
+  value: 0
+  type: Blessing
+
+- name: "Living Single"
+  value: 0
+  type: Blessing
+
+- name: "Triple Crown"
+  value: 0
+  type: Blessing
+
 - name: "Move (Gia Holbrook for Torus McGhee)"
   value: 0
   type: Will
@@ -21,7 +105,7 @@
 - name: "Equivalent Exchange/Plunder"
   value: 0
   type: Will
-  review: "Trading players can be a sensitive subject - we'll generally only recommend it if there's a plan with agreement from both out and the other team."
+  review: "Trading players can be a sensitive subject - we'll generally only recommend it if there's a plan with strong support from both teams."
 
 - name: "Transfuse"
   value: 0
