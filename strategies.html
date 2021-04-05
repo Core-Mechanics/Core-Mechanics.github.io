@@ -7,6 +7,7 @@ title: Strategies
 <a href="{% link index.html %}" class="back-link">← Back</a>
 {% for strategy in site.data.strategies %}
     <h3>{{strategy.name}}</h3>
+    <div>Owner: <strong>{{strategy.owner}}</strong></div>
     <p>{{strategy.description}}</p>
     <table class="strategy-table">
         <tr>
