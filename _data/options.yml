@@ -49,25 +49,25 @@
   review: "Our worst hitter is Evelton McBlase II, who is Romain' and unlikely to stick around forever. That's a bit sad, since Fourth Strike is very powerful."
 
 - key: team-defense
-  name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
+  name: "Defense Practice"
   value: 0
   type: Blessing
   review: "These are very small boosts by the standards of historical blessings."
 
 - key: team-running
-  name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
+  name: "Running Practice"
+  value: 0
+  type: Blessing
+  review: "These are very small boosts by the standards of historical blessings."
+
+- key: team-batting
+  name: "Batting Practice"
   value: 0
   type: Blessing
   review: "These are very small boosts by the standards of historical blessings."
 
 - key: team-pitching
-  name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
-  value: 0
-  type: Blessing
-  review: "These are very small boosts by the standards of historical blessings."
-
-- key: team-pitching
-  name: "Defense Practice/Running Practice/Pitching Practice/Batting Practice"
+  name: "Pitching Practice"
   value: 0
   type: Blessing
   review: "These are very small boosts by the standards of historical blessings."
