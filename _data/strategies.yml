@@ -30,6 +30,16 @@
   - key: reform
     target: "Jasper Blather + Roamin' (next season)"
 
+- name: "Training Montage"
+  description: "Continue investing into optimising our pitching rotation, to maximise our small ball playstyle."
+  options: 
+  - key: move
+    target: "Torus McGhee (to the shadows)"
+  - key: transfuse
+    target: "Jolene Willowtree + pitching"
+  - key: team-pitching
+  - key: living-single
+
 - name: "We Can Rebuild Him (again)"
   description: "Turn Evelton McBlase II into Evelton McBlase III, and make them into a permanent fixture of the team."
   options: 
