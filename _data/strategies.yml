@@ -80,12 +80,11 @@
 
 - name: "Unbox the Fox"
   owner: "w00se"
-  description: "Moving our worst performing pitcher to the shadows will get our roster to the point where we can begin to look at improving our lineup.  Getting out our best shadowed batter out is the start to this and will help balance some of our team's biggest deficiencies."
-  options: foreshadow
-  - key: 
+  description: "Moving our worst performing pitcher to the shadows will get our roster to the point where we can begin to look at improving our lineup. Getting out our best shadowed batter out is the start to this and will help balance some of our team's biggest deficiencies."
+  options:
+  - key: foreshadow
     target: "Foxy Pebble + [our worst non-Roamin' batter]"
-  options: move
-  - key: 
+  - key: move
     target: "Torus McGhee to the Shadows"
 
 - name: "We Can Rebuild Him (again)"
