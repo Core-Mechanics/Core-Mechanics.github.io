@@ -14,7 +14,7 @@ title: Election Ratings
   <div class="warning">The season is still in progress, and a lot can change during a game of Blaseball. If possible, we recommend waiting until the weekend before voting, to avoid being caught out!</div>
 {% endif %}
 
-{% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse %}
+{% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse | sort: "type" %}
 {% for option in ordered_options %}
   <h3>{{option.name}}</h3>
   <div class="value-{{option.value}}">Value: 
