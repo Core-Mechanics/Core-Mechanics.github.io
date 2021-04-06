@@ -4,13 +4,13 @@ title: Stadium Modifications
 ---
 
 <h1>Stadium Modifications</h1>
-<h3>Target Modifications</h3>
+<h2>Target Modifications</h2>
 {% for mod in site.data.stadium_mods %}
     <h3>{{mod.name}}</h3>
     <p>{{mod.explanation}}</p>
 {% endfor %}
 
-<h3>Stadium Stats</h3>
+<h2>Stadium Stats</h2>
 <a href="{% link index.html %}" class="back-link">← Back</a>
 <p>A quick summary of the different stats for a stadium, and whether we think they're good or bad for us.</p>
 <p>Our <a href="{{ site.data.settings['documents'].stadium }}">stadium philosophy</a> covers some of the thoughts behind this.</p>
