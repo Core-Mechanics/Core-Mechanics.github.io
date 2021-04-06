@@ -78,6 +78,16 @@
   - key: plunder
     target: "Chorby Soul"
 
+- name: "Unbox the Fox"
+  owner: "w00se"
+  description: "Moving our worst performing pitcher to the shadows will get our roster to the point where we can begin to look at improving our lineup.  Getting out our best shadowed batter out is the start to this and will help balance some of our team's biggest deficiencies."
+  options: foreshadow
+  - key: 
+    target: "Foxy Pebble + [our worst non-Evelton batter]"
+  options: move
+  - key: 
+    target: "Torus McGhee to the Shadows"
+
 - name: "We Can Rebuild Him (again)"
   owner: "Rob"
   description: "Turn Evelton McBlase II into Evelton McBlase III, and make them into a permanent fixture of the team."
