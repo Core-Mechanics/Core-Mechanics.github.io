@@ -86,6 +86,12 @@
     target: "Foxy Pebble + [our worst non-Roamin' batter]"
   - key: move
     target: "Torus McGhee to the Shadows"
+  - key: team-batting
+  - key: fringe-benefit
+  - key: epiphany
+  - key: dirty-bulk
+  - key: triple-crown
+
 
 - name: "We Can Rebuild Him (again)"
   owner: "Rob"
