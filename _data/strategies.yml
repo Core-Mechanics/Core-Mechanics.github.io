@@ -1,6 +1,6 @@
 - name: "We Can Break This"
   owner: "z"
-  description: "Shadow our excellent pitchers in exchange for the worst possible replacements over the next couple of seasons, to let us build up a top-tier batting line-up through partying. Then defrost our pitchers again, for an instant championship-ready team. In Baseball terms, this will mean a few seasons of "rebuilding". The timeline could vary a bit - we may need to back out early if the decrees next season look worrying."
+  description: "Shadow our excellent pitchers in exchange for the worst possible replacements over the next couple of seasons, to let us build up a top-tier batting line-up through partying. Then defrost our pitchers again, for an instant championship-ready team. In Baseball terms, this will mean a few seasons of 'rebuilding'. The timeline could vary a bit - we may need to back out early if the decrees next season look worrying."
   options: 
   - key: foreshadow
     target: "Zoey Kirchner for Foxy"
