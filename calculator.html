@@ -18,6 +18,7 @@ title: Calculator
 <table id="voting-table" class="voting-table">
     <tr>
         <th>Option</th>
+        <th>Target</th>
         <th>Type</th>
         <th>Votes</th>
     </tr>
@@ -25,6 +26,7 @@ title: Calculator
         {% if option.weight > 0 %}
             <tr>
                 <td>{{option.name}}</td>
+                <td>{{option.target | default: 'N/A'}}</td>
                 <td>{{option.type}}</td>
                 <td id="votes-{{ forloop.index }}">0</td>
             </tr>

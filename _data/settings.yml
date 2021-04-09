@@ -1,7 +1,7 @@
 season:
   number: 15
-  finalised: 0
-  formUrl: "WIP"
+  finalised: 1
+  formUrl: "https://forms.gle/YKZnVVvDFuNTErMXA"
   blessingsDoc: "https://docs.google.com/document/d/18A6qsmrR8NgmqZ2mTTPre9QAPiyVvhAvyK0liKa5j80/edit"
 
 documents:
