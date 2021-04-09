@@ -1,14 +1,16 @@
 - key: sky-limit
   name: "Sky's the Limit"
-  value: 0
+  value: 3
+  chance: 3
   type: Blessing
-  review: "We don't end up in Maximum Blaseball very much, sadly - this is a big swing when it does happen, though."
+  review: "We don't end up in Maximum Blaseball very much, sadly - this is a big swing when it does happen, though. Lift want it, but it probably won't be widely pursued otherwise."
 
 - key: afterparty
   name: "Afterparty"
-  value: 0
+  value: 4
+  chance: 2
   type: Blessing
-  review: "We need to project what the star gains from this could look like."
+  review: "Surprisingly, this looks like the best option for raw star gain. We also expect some competition on this."
 
 - key: middling
   name: "Middling"
@@ -26,20 +28,24 @@
 
 - key: absolute-zero
   name: "Absolute Zero"
-  value: 0
+  value: 5
+  chance: 1
   type: Blessing
-  review: "Historically blood-based blessings have been variable, but the potential ceiling here is _very_ high. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here."
+  review: "This is a moderately powerful effect. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here."
 
 - key: water-logged
   name: "Water Logged"
-  value: 0
+  value: 5
+  chance: 1
   type: Blessing
-  review: "Historically blood-based blessings have been variable, but the potential ceiling here is _very_ high. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here."
+  review: "This is a moderately powerful effect. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here. Some of us have already sent votes to the Georgias, so we would end up fighting ourselves on this."
 
 - key: bird-brain
   name: "Bird Brain"
-  value: 0
+  value: 4
+  chance: 3
   type: Blessing
+  review: "This is substantial pitching boost in bird weather. We're pretty positive on this and we haven't heard that much chatter from other teams."
 
 - key: mulligan
   name: "Mulligan"
@@ -50,52 +56,59 @@
 
 - key: team-defense
   name: "Defense Practice"
-  value: 0
+  value: 4
+  chance: 2
   type: Blessing
-  review: "These are very small boosts by the standards of historical blessings."
+  review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table."
 
 - key: team-running
   name: "Running Practice"
-  value: 0
+  value: 4
+  chance: 2
   type: Blessing
-  review: "These are very small boosts by the standards of historical blessings."
+  review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table."
 
 - key: team-batting
   name: "Batting Practice"
-  value: 0
+  value: 4
+  chance: 2
   type: Blessing
-  review: "These are very small boosts by the standards of historical blessings."
+  review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table. Batting is probably a key target for us at the moment."
 
 - key: team-pitching
   name: "Pitching Practice"
-  value: 0
+  value: 4
+  chance: 2
   type: Blessing
-  review: "These are very small boosts by the standards of historical blessings."
-
+  review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table."
 
 - key: shadow-batting
   name: "Shadow Batting Practice"
-  value: 0
+  value: 3
+  chance: 3
   type: Blessing
-  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have 2 strong batters currently in our Shadows who could benefit from this."
+  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
 
 - key: shadow-running
   name: "Shadow Running Practice"
-  value: 0
+  value: 3
+  chance: 3
   type: Blessing
-  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have 2 strong batters currently in our Shadows who could benefit from this."
+  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
 
 - key: shadow-defense
   name: "Shadow Defense Practice"
-  value: 0
+  value: 3
+  chance: 3
   type: Blessing
-  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have 3 strong players currently in our Shadows who could benefit from this."
+  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
 
 - key: shadow-pitching
   name: "Shadow Pitching Practice"
-  value: 0
+  value: 3
+  chance: 3
   type: Blessing
-  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve. Notably, we have a strong pitcher currently in our Shadows who could benefit from this."
+  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
 
 - key: easy-out
   name: "Easy Out"
@@ -106,39 +119,54 @@
 
 - key: lead-off
   name: "Lead Off"
-  value: 0
+  value: 1
+  chance: 0
   type: Blessing
+  review: "We think this will probably do more harm than good, unfortunately!"
 
 - key: blood-pact
   name: "Blood Pact"
-  value: 0
+  value: 4
+  chance: 2
   type: Blessing
+  review: "Siphon is a very powerful modifier, which has historically produced some excellent players. It's not clear whether this steals a player or not. If it does, the targets are pretty good."
+
 
 - key: fringe-benefit
   name: "Fringe Benefit"
-  value: 0
+  value: 4
+  chance: 2
   type: Blessing
-  review: "Perk players play better in coffee weather. This plays well with our stadium, which has increased Coffee 3 weather."
+  review: "Perk players play better in coffee weather. This plays well with our stadium, which has increased Coffee 3 weather. It's not clear whether this steals a player or not. If it does, the targets are pretty good."
 
 - key: epiphany
   name: "Epiphany"
-  value: 0
+  value: 4
+  chance: 3
   type: Blessing
+  review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This is the best one in terms of raw stars, and a decent boost to epiphany could make a player into a home run machine."
 
 - key: dirty-bulk
   name: "Dirty Bulk"
-  value: 0
+  value: 3
+  chance: 3
   type: Blessing
+  review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This one will improve a player's contact substantially."
+
 
 - key: living-single
   name: "Living Single"
-  value: 0
+  value: 3
+  chance: 2
   type: Blessing
+  review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This one seems to be the most contested elsewhere - it helps prevent home runs."
 
 - key: triple-crown
   name: "Triple Crown"
-  value: 0
+  value: 3
+  chance: 3
   type: Blessing
+  review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This one helps batters get more bases per hit."
 
 - key: move
   name: "Move"

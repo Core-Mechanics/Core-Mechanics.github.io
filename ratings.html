@@ -14,6 +14,10 @@ title: Election Ratings
   <div class="warning">The season is still in progress, and a lot can change during a game of Blaseball. If possible, we recommend waiting until the weekend before voting, to avoid being caught out!</div>
 {% endif %}
 
+{% if site.data.settings["season"].blessingsDoc %}
+  Check out the <a href="{{ site.data.settings["season"].blessingsDoc }}">blessings doc</a> to see the analysis behind this.
+{% endif %}
+
 {% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse | sort: "type" %}
 {% for option in ordered_options %}
   <h3>{{option.name}}</h3>
