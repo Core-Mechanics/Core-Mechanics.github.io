@@ -28,7 +28,7 @@ title: Calculator
                 <td>{{option.name}}</td>
                 <td>{{option.target | default: 'N/A'}}</td>
                 <td>{{option.type}}</td>
-                <td id="votes-{{ forloop.index }}">0</td>
+                <td><strong id="votes-{{ forloop.index }}">0</strong></td>
             </tr>
         {% endif %} 
     {% endfor %}
