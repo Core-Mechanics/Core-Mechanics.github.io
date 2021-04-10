@@ -9,7 +9,7 @@
   name: "Afterparty"
   value: 4
   chance: 2
-  weight: 3
+  weight: 14
   type: Blessing
   review: "Surprisingly, this looks like the best option for raw star gain. We also expect some competition on this."
 
@@ -31,7 +31,7 @@
   name: "Absolute Zero"
   value: 5
   chance: 1
-  weight: 1
+  weight: 14
   type: Blessing
   review: "This is a moderately powerful effect. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here."
 
@@ -46,7 +46,7 @@
   name: "Bird Brain"
   value: 4
   chance: 3
-  weight: 1
+  weight: 2
   type: Blessing
   review: "This is substantial pitching boost in bird weather. We're pretty positive on this and we haven't heard that much chatter from other teams."
 
@@ -61,7 +61,7 @@
   name: "Defense Practice"
   value: 4
   chance: 2
-  weight: 1
+  weight: 3
   type: Blessing
   review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table."
 
@@ -76,7 +76,7 @@
   name: "Batting Practice"
   value: 4
   chance: 2
-  weight: 3
+  weight: 14
   type: Blessing
   review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table. Batting is probably a key target for us at the moment."
 
@@ -90,6 +90,7 @@
 - key: shadow-batting
   name: "Shadow Batting Practice"
   value: 3
+  weight: 2
   chance: 3
   type: Blessing
   review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
@@ -112,7 +113,6 @@
   name: "Shadow Pitching Practice"
   value: 3
   chance: 3
-  weight: 1
   type: Blessing
   review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
 
@@ -134,7 +134,7 @@
   name: "Blood Pact"
   value: 4
   chance: 2
-  weight: 1
+  weight: 3
   type: Blessing
   review: "Siphon is a very powerful modifier, which has historically produced some excellent players. It's not clear whether this steals a player or not. If it does, the targets are pretty good."
 
@@ -150,7 +150,7 @@
   name: "Epiphany"
   value: 4
   chance: 3
-  weight: 2
+  weight: 14
   type: Blessing
   review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This is the best one in terms of raw stars, and a decent boost to epiphany could make a player into a home run machine."
 
@@ -166,21 +166,22 @@
   name: "Living Single"
   value: 3
   chance: 2
-  weight: 1
+  weight: 2
   type: Blessing
   review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This one seems to be the most contested elsewhere - it helps prevent home runs."
 
 - key: triple-crown
   name: "Triple Crown"
   value: 3
-  chance: 3
+  chance: 2
+  weight: 2
   type: Blessing
   review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This one helps batters get more bases per hit."
 
 - key: move
   name: "Move"
   value: 5
-  weight: 3
+  weight: 15
   target: "Torus McGhee to the Shadow rotation"
   type: Will
   definition: "Move a player to a different position on the team. This can include moves in and out of the shadows"
@@ -189,11 +190,11 @@
 - key: foreshadow
   name: "Foreshadow"
   value: 5
-  weight: 3
+  weight: 15
   target: "Jasper Ji-Eun for Foxy Pebble"
   type: Will
   definition: "Swap a player in the team's Shadows with a player in the roster"
-  review: "Foxy in our Shadows is a star better - getting them out is." 
+  review: "Foxy in our Shadows is a star better - getting them out will be a big boost." 
 
 - key: reform
   name: "Reform"
