@@ -179,21 +179,21 @@
 
 - key: move
   name: "Move"
-  value: 0
+  value: 5
   weight: 3
   target: "Torus McGhee to the Shadow rotation"
   type: Will
   definition: "Move a player to a different position on the team. This can include moves in and out of the shadows"
-  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, but we could also Move him to the Shadows, out of play altogether." 
+  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, so we want to Move him to the Shadows, out of play altogether." 
 
 - key: foreshadow
   name: "Foreshadow"
-  value: 0
+  value: 5
   weight: 3
   target: "Jasper Ji-Eun for Foxy Pebble"
   type: Will
   definition: "Swap a player in the team's Shadows with a player in the roster"
-  review: "This season we might aim to bank one of our stronger players, to set us up for extra party time next season and take advantage of the many buffs that target the shadows in this election." 
+  review: "Foxy in our Shadows is a star better - getting them out is." 
 
 - key: reform
   name: "Reform"
