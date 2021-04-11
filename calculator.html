@@ -86,8 +86,6 @@ title: Calculator
         const totalBlessingWeight = weightings.filter(entry => entry.type == "Blessing")
             .reduce((total, weighting) => total + weighting.weight, 0);
 
-        const totalWeight = totalWillWeight + totalBlessingWeight;
-
         const adjustedWeightings = [];
 
         weightings.forEach(entry => {
@@ -103,6 +101,7 @@ title: Calculator
         const validWeightings = includeWills
             ? adjustedWeightings
             : adjustedWeightings.filter(entry => entry.type != "Will");
+        const totalWeight = validWeightings.reduce((total, weighting) => total + weighting.weight, 0);
 
         voteCounts = {};
         remainders = {};
