@@ -81,12 +81,20 @@ title: Calculator
             });
             return;
         }
+        const totalWillWeight = weightings.filter(entry => entry.type == "Will")
+            .reduce((total, weighting) => total + weighting.weight, 0);
+        const totalBlessingWeight = weightings.filter(entry => entry.type == "Blessing")
+            .reduce((total, weighting) => total + weighting.weight, 0);
+
+        const totalWeight = totalWillWeight + totalBlessingWeight;
 
         const adjustedWeightings = [];
 
         weightings.forEach(entry => {
             let adjustedEntry = {};
-            adjustedEntry.weight = entry.weight * (entry.type == "Will" ? typeWeightings.will : typeWeightings.blessing);
+            adjustedEntry.weight = entry.type == "Will"
+                ? typeWeightings.will * (entry.weight / totalWillWeight)
+                : typeWeightings.blessing * (entry.weight / totalBlessingWeight);
             adjustedEntry.type = entry.type;
             adjustedEntry.id = entry.id;
             adjustedWeightings.push(adjustedEntry);
@@ -95,7 +103,6 @@ title: Calculator
         const validWeightings = includeWills
             ? adjustedWeightings
             : adjustedWeightings.filter(entry => entry.type != "Will");
-        const totalWeight = validWeightings.reduce((total, weighting) => total + weighting.weight, 0);
 
         voteCounts = {};
         remainders = {};
