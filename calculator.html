@@ -51,10 +51,10 @@ title: Calculator
         {% endfor %}
     ];
 
-    const typeWeightings = [
+    const typeWeightings = {
         blessing: {{ site.data.settings['season'].blessingWeighting }},
         will: {{ site.data.settings['season'].willWeighting }}
-    ];
+    };
     
     const input = document.getElementById('vote-input');
     input.addEventListener('change', updateVotes);
@@ -82,16 +82,15 @@ title: Calculator
             return;
         }
 
-        const adjustedWeightings = {};
+        const adjustedWeightings = [];
 
-        for (var key in weightings) {
-            if (weightings.hasOwnProperty(key)) {
-                adjustedWeightings[key] = {};
-                adjustedWeightings[key].weight = weightings["key"].weight * (weightings["key"].type == "Will" ? typeWeightings.will : typeWeightings.blessing);
-                adjustedWeightings[key].type = weightings["key"].type;
-                adjustedWeightings[key].id = weightings["key"].id;
-            }
-        }
+        weightings.forEach(entry => {
+            let adjustedEntry = {};
+            adjustedEntry.weight = entry.weight * (entry.type == "Will" ? typeWeightings.will : typeWeightings.blessing);
+            adjustedEntry.type = entry.type;
+            adjustedEntry.id = entry.id;
+            adjustedWeightings.push(adjustedEntry);
+        });
 
         const validWeightings = includeWills
             ? adjustedWeightings
