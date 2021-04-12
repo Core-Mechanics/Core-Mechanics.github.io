@@ -126,14 +126,7 @@
   value: 1
   chance: 0
   type: Blessing
-  review: "This would actively undo one of our blessings from last season. Best avoided!"
-
-- key: sweet-relief
-  name: "Sweet Relief"
-  value: 1
-  chance: 0
-  type: Blessing
-  review: "This would actively undo one of our blessings from last season. Best avoided!"
+  review: "This would actively undo one of our Wills from last season. Since the pitchers on our rotation are all better than the options in our shadows, this probably best avoided!"
 
 - key: shadow-batting
   name: "Shadow Batting Practice"
