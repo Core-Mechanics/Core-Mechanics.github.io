@@ -16,11 +16,24 @@ title: Home
   <p>If you want advice on how to spend your votes this season, check out the <a href="{% link calculator.html %}">voting calculator</a>, then record your votes on the <a href="{{ site.data.settings['season'].formUrl }}">election survey</a>.</p>
   <p>If you want to understand the theory behind it, have a look at:</p>
   <ul>
+    <li>The <a href="{% link strategies.html %}">strategies</a> that were proposed this season.</li>
     <li>This season's <a href="{% link ratings.html %}">Blessing/Will ratings</a>.</li>
+    <li>The <a href="{% link stadiums.html %}">stadium rennovation guide</a></li>
     <li>The <a href="{% link faq.html %}">FAQ</a></li>
     <li>The team's <a href="{{ site.data.settings['documents'].strategy }}">strategy document</a></li>
   </ul>
 {% else %}
-  <div class="warning">This season's guide is still a work in progress. For now, you can see our thoughts so far on this season in the <a href="{% link ratings.html %}">ratings</a> and <a href="{% link stadiums.html %}">stadiums</a> pages, and learn more about our general philosophy in the <a href="{% link faq.html %}">FAQ</a> and <a href="{{ site.data.settings['documents'].strategy }}">strategy document</a></div>
+  <div class="warning">This season's guide is still a work in progress. It's usually safest to wait until the weekend to vote!</div>
+  <p>Right now we're working on:</p>
+  <ul>
+    <li>The <a href="{% link strategies.html %}">strategies</a> that have been proposed so far this season.</li>
+    <li>This season's <a href="{% link ratings.html %}">Blessing/Will ratings</a>.</li>
+  </ul>
+  <p>For more information, check out:</p>
+  <ul>
+    <li>The <a href="{% link stadiums.html %}">stadium rennovation guide</a></li>
+    <li>The <a href="{% link faq.html %}">FAQ</a></li>
+    <li>The team's <a href="{{ site.data.settings['documents'].strategy }}">strategy document</a></li>
+  </ul>
 {% endif %}
 <p>If you'd like to contribute to this site, head over to the <a href="https://github.com/Core-Mechanics/Core-Mechanics.github.io">GitHub page</a>.</p>

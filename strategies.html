@@ -14,6 +14,10 @@ title: Strategies
     <h3>{{strategy.name}}</h3>
     <div>Owner: <strong>{{strategy.owner}}</strong></div>
     <p>{{strategy.description}}</p>
+    {% for detailed_description in strategy.details %}
+        <br/>
+        <p>{{detailed_description.text}}</p>
+    {% endfor %}
     <table class="strategy-table">
         <tr>
             <th>Option</th>
