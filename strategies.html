@@ -14,6 +14,10 @@ title: Strategies
     <h3>{{strategy.name}}</h3>
     <div>Owner: <strong>{{strategy.owner}}</strong></div>
     <p>{{strategy.description}}</p>
+
+    {% if strategy.imageUrl %}
+        <img alt="A graphic representing the {{strategy.name}} plan" src="{{ strategy.imageUrl }}">
+    {% endif %}
     {% for detailed_description in strategy.details %}
         {% if detailed_description.forbiddenKnowledgeWarning %}
             <details>

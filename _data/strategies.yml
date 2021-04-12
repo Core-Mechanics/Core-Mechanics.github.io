@@ -36,6 +36,7 @@
 
 - name: "Gears Are Turning"
   owner: "Gokimster"
+  imageUrl: "assets/img/gears_turning.png"
   description: "This plan incorporates more will options that lets us be flexible depending on what happens during the season and focuses on improving our Lineup while also having options to protect our Rotation if the need and opportunity arise."
   details:
     - text: "The main priority is - Reforming Homebody on Lady if we get a chance to have Overperforming on her at the end of the season. This would mean that Lady will now have permanent 20% buff with Overperforming and gives her a new and exciting Mod"
