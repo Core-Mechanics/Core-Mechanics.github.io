@@ -99,7 +99,7 @@
   owner: "hillexed"
   description: "Reroll Triple Threat on Mindy Kugel for a free mod."
   details:
-    - text: "A pitcher gets Triple Threat at the start of a game in Coffee 3s weather, and has a chance of losing it at the start of inning 3 every game they pitch. From FK we know our last coffee 3s weather is. It's a permanent modification, and wills go off based on the situation when they're signed - which means if we vote to reroll Triple Threat at the start of that day, Mindy gets a free random modification. Even if Mindy loses triple threat later, because of how wills work, we think Reroll will give her a modification in exchange for nothing!"
+    - text: "A pitcher gets Triple Threat at the start of a game in Coffee 3s weather, and has a chance of losing it at the start of inning 3 every game they pitch. From FK we know when our last coffee 3s weather is. It's a permanent modification, and wills go off based on the situation when they're signed - which means if we vote to reroll Triple Threat at the start of that day, Mindy gets a free random modification. Even if Mindy loses triple threat later, because of how wills work, we think Reroll will give her a modification in exchange for nothing!"
     - text: "On day 39, Mindy will get the Triple Threat modifier from Coffee 3s weather."
       forbiddenKnowledgeWarning: "Schedule"
     - text: "This is compatible with the rerolling Lady's homebody strategy; we can vote for two good reform suggestions and see which ends up happening!"
