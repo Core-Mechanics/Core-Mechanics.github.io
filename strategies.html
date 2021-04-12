@@ -15,8 +15,31 @@ title: Strategies
     <div>Owner: <strong>{{strategy.owner}}</strong></div>
     <p>{{strategy.description}}</p>
     {% for detailed_description in strategy.details %}
+        {% if detailed_description.forbiddenKnowledgeWarning %}
+            <details>
+                <summary>Forbidden Knowledge: {{detailed_description.forbiddenKnowledgeWarning}}</summary>
+                {{detailed_description.text}}
+            </details>
+        {% else %}
         <p>{{detailed_description.text}}</p>
+        {% endif %}
     {% endfor %}
+    {% if strategy.pros %}
+      <h5>Pros:</h5>
+      <ul class="positive">
+        {% for pro in strategy.pros %}
+            <li>{{pro.text}}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if strategy.cons %}
+      <h5>Cons:</h5>
+      <ul class="negative">
+        {% for con in strategy.cons %}
+            <li>{{con.text}}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
     <table class="strategy-table">
         <tr>
             <th>Option</th>

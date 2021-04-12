@@ -89,7 +89,7 @@ li::before {
     color: grey;
 }
 
-.value-1 {
+.value-1, .negative {
     color: darkred;
 }
 
@@ -105,6 +105,10 @@ li::before {
     color: rgb(87, 117, 28);
 }
 
-.value-5 {
+.value-5, .positive {
     color: darkgreen;
+}
+
+details {
+    margin-bottom: 16px;
 }

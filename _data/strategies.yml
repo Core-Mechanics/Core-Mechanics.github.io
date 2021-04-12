@@ -95,6 +95,27 @@
   - key: handcrafted-bat-drop
   - key: shadow-batting
 
+- name: "The Mindy Wimdy"
+  owner: "hillexed"
+  description: "Reroll Triple Threat on Mindy Kugel for a free mod."
+  details:
+    - text: "A pitcher gets Triple Threat at the start of a game in Coffee 3s weather, and has a chance of losing it at the start of inning 3 every game they pitch. From FK we know our last coffee 3s weather is. It's a permanent modification, and wills go off based on the situation when they're signed - which means if we vote to reroll Triple Threat at the start of that day, Mindy gets a free random modification. Even if Mindy loses triple threat later, because of how wills work, we think Reroll will give her a modification in exchange for nothing!"
+    - text: "On day 39, Mindy will get the Triple Threat modifier from Coffee 3s weather."
+      forbiddenKnowledgeWarning: "Schedule"
+    - text: "This is compatible with the rerolling Lady's homebody strategy; we can vote for two good reform suggestions and see which ends up happening!"
+  pros:
+    - text: "Free mod! Create something from nothing! We don't lose anything!"
+    - text: "Makes our pitchers more unique"
+    - text: "Fun lore"
+    - text: "Very compatible with other plans: our last Triple Threat game happens early in the season, so we still have the rest of the season to get more money for voting on blessings"
+    - text: "Abusing game mechanics to our advantage is peak mechs energy"
+  cons:
+    - text: "We have to decide quickly"
+    - text: "Mindy could be incinerated after day 39"
+  options:
+  - key: reform
+    target: "Mindy and Triple Threat"
+
 - name: "Power Burst"
   owner: "Rob"
   description: "Aim for a short-time spike in power to win us a championship next season. Enrich + Fourth Strike is the only endorsed Will, letting us prioritise blessings. There, we try to pick up AAA blood and a crateload of shoes for a team-wide boost. Posterizer will most likely give one player a little extra power in the post-season."
