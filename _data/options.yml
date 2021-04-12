@@ -99,8 +99,7 @@
 - key: power-charge
   name: "Power Chaaarge"
   value: 5
-  weight: 1
-  chance: 3
+  chance: 1
   type: Blessing
   review: "Blood blessings are generally a big power boost and highly competitive. We'll probably target this one out of the three, mostly for theme reasons."
 
