@@ -1,10 +1,10 @@
 season:
-  number: 15
-  finalised: 1
+  number: 16
+  finalised: 0
+  displayTargetMods: 0
   blessingWeighting: 5
   willWeighting: 5
-  formUrl: "https://forms.gle/YKZnVVvDFuNTErMXA"
-  blessingsDoc: "https://docs.google.com/document/d/18A6qsmrR8NgmqZ2mTTPre9QAPiyVvhAvyK0liKa5j80/edit"
+  strategyFormUrl: "https://discord.com/channels/706414667958059078/819283548687171615/831113754334593055"
 
 documents:
   strategy: "https://docs.google.com/document/d/e/2PACX-1vTeyknT3OIEBEDvNKT8P5Km58y-7P3mEq2-mtC3rn3uqVvmAxiUV1uQyKgt71-Luj5Ux5vOmT5jLQga/pub"

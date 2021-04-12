@@ -4,6 +4,11 @@ title: Strategies
 ---
 
 <h1>Proposed Strategies</h1>
+
+{% if site.data.settings["season"].strategyFormUrl %}
+  We're currently gathering strategies for this season. Feel free to submit your ideas <a href="{{ site.data.settings["season"].strategyFormUrl }}">here</a>.
+{% endif %}
+
 <a href="{% link index.html %}" class="back-link">← Back</a>
 {% for strategy in site.data.strategies %}
     <h3>{{strategy.name}}</h3>

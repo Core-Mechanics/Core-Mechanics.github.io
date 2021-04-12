@@ -3,12 +3,15 @@ layout: default
 title: Stadium Modifications
 ---
 
+
 <h1>Stadium Modifications</h1>
-<h2>Target Modifications</h2>
-{% for mod in site.data.stadium_mods %}
-    <h3>{{mod.name}}</h3>
-    <p>{{mod.explanation}}</p>
-{% endfor %}
+{% if site.data.settings["season"].displayTargetMods != 0  %}
+    <h2>Target Modifications</h2>
+    {% for mod in site.data.stadium_mods %}
+        <h3>{{mod.name}}</h3>
+        <p>{{mod.explanation}}</p>
+    {% endfor %}
+{% endif  %}
 
 <h2>Stadium Stats</h2>
 <a href="{% link index.html %}" class="back-link">← Back</a>

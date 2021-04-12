@@ -1,107 +1,65 @@
-- name: "We Can Break This"
-  owner: "z"
-  description: "Shadow our excellent pitchers in exchange for the worst possible replacements over the next couple of seasons, to let us build up a top-tier batting line-up through partying. Then defrost our pitchers again, for an instant championship-ready team. In Baseball terms, this will mean a few seasons of 'rebuilding'. The timeline could vary a bit - we may need to back out early if the decrees next season look worrying."
-  options: 
-  - key: foreshadow
-    target: "Zoey Kirchner for Foxy"
-  - key: move
-    target: "Jolene Willowtree to the shadows"
-  - key: afterparty
-  - key: shadow-pitching
-  - key: move
-    target: "Foxy to the lineup (next season)"
-  - key: move
-    target: "Zoey Kirchner to the rotation (the season after)"
-  - key: foreshadow
-    target: "Jolene Willowtree for Torus McGhee (the season after)"
-
-- name: "Mob Mentality"
-  owner: "EvilSoully"
-  description: "Prioritise getting a blood buff and a siphon on the team, followed by boosting our batting power."
-  options: 
-  - key: absolute-zero
-  - key: blood-pact
-  - key: team-batting
-  - key: epiphany
-  - key: dirty-bulk
-  - key: transfuse
-    target: "A batter + batting"
-
-- name: "Bring Jasper Home"
-  owner: "ShadowedStranger"
-  description: "Trade away Evelton McBlase II to bring Jasper Blather home."
-  options: 
-  - key: equivalent-exchange
-    target: "Evelton McBlase II + Jasper Blather"
-  - key: reform
-    target: "Jasper Blather + Roamin' (next season)"
-
-- name: "Practice Makes Perfect"
-  owner: "Putin'sSideChick"
-  description: "Continue investing into optimising our pitching rotation, to maximise our small ball playstyle."
-  options: 
-  - key: move
-    target: "Torus McGhee (to the shadows)"
-  - key: transfuse
-    target: "Jolene Willowtree + pitching"
-  - key: team-pitching
-  - key: living-single
-
-- name: "Training Montage"
-  owner: "Putin'sSideChick"
-  description: "Pursue blessings that aren't flashy, but offer incremental benefits to our stats and are likely to be less heavily contested."
-  options: 
-  - key: team-pitching
-  - key: team-running
-  - key: team-defense
-  - key: team-batting
-  - key: epiphany
-  - key: living-single
-  - key: triple-crown
-
-- name: "Mod Mania"
-  owner: "JamHeronArk"
-  description: "Try to get as many modifications as possible, to fit the constant cool (always cool) improvement vibes we mechs aim for."
-  options: 
-  - key: absolute-zero
-  - key: sky-limit
-  - key: mulligan
-  - key: bird-brain
-  - key: blood-pact
-  - key: fringe-benefit
-  - key: alternate-trust
-    target: "Evelton McBlase II"
-  - key: reform
-    target: "Jasper Ji-Eun"
-
-- name: "Constant Maintenance"
-  owner: "zickery"
-  description: "Acquire Chorby Soul, whose attractiveness to sharks should trigger our Maintenance Mode ability during most games."
-  options:
-  - key: plunder
-    target: "Chorby Soul"
-
-- name: "Unbox the Fox"
-  owner: "w00se"
-  description: "Moving our worst performing pitcher to the shadows will get our rotation to the point where we can begin to look at improving our lineup. Getting out our best shadowed batter out is the start to this and will help balance some of our team's biggest deficiencies."
-  options:
-  - key: foreshadow
-    target: "Foxy Pebble + [our worst non-Roamin' batter]"
-  - key: move
-    target: "Torus McGhee to the Shadows"
-  - key: team-batting
-  - key: fringe-benefit
-  - key: epiphany
-  - key: dirty-bulk
-  - key: triple-crown
-
-
-- name: "We Can Rebuild Him (again)"
+- name: "Power Burst"
   owner: "Rob"
-  description: "Turn Evelton McBlase II into Evelton McBlase III, and make them into a permanent fixture of the team."
+  description: "Aim for a short-time spike in power to win us a championship next season. Enrich + Fourth Strike is the only endorsed Will, letting us prioritise blessings. There, we try to pick up AAA blood and a crateload of shoes for a team-wide boost. Posterizer will most likely give one player a little extra power in the post-season."
   options: 
-  - key: mulligan
-  - key: alternate-trust
-    target: "Evelton McBlase II"
+  - key: enrich
+    target: "Fourth Strike"
+  - key: power-charge
+  - key: shoes-supply-run
+  - key: posterizer
+
+- name: "Front Heavy"
+  owner: "N1tr00#8811"
+  description: "Continue improving our lineup, focused on connecting Adelaide with our cleanup hitters on Positions 3 and 4. Transfusing Mira and removing Evelton from the Lineup would accomplish just that."
+  options: 
+  - key: transfuse
+    target: "Mira"
+  - key: move
+    target: "Evelton"
+  - key: power-charge
+  - key: handcrafted-bat-drop
+  - key: posterizer
+
+- name: "Play It Safe"
+  owner: "zed - geometea #9999"
+  description: "We're looking pretty good at the moment and if we manage to keep it up over the season, it'd be worth keeping our wills lowkey and popular/obvious and focusing on blessings. As such, I'd suggest going for Transfuse on our worst performing pitcher (probably Shirai) as pitchers only rely on one stat and Enrich for the Fourth Strike, turning next season into a dedicated championship push."
+  options: 
+  - key: transfuse
+    target: "Our worst performing pitcher"
+  - key: enrich
+    target: "Fourth Strike"
+  - key: power-charge
+  - key: posterizer
+  - key: shadow-batting
+  - key: shadow-pitching
+  - key: shadow-defense
+  - key: shadow-running
+
+- name: "Good Twin"
+  owner: "ShadowedStranger#0651"
+  description: "We Reform Roamin, then Alternate/Trust Evelton and see what happens. This assumes we have a good season over all and other plans with Wills are less necessary."
+  options: 
   - key: reform
-    target: "Evelton McBlase II + Roamin'"
+    target: "Evelton + Roamin'"
+  - key: alternate-trust
+    target: "Evelton"
+
+- name: "Gears Are Turning"
+  owner: "Gokimster"
+  description: "This plan incorporates more will options that lets us be flexible depending on what happens during the season and focuses on improving our Lineup while also having options to protect our Rotation if the need and opportunity arise."
+  details:
+    - text: "The main priority is - Reforming Homebody on Lady if we get a chance to have Overperforming on her at the end of the season. This would mean that Lady will now have permanent 20% buff with Overperforming and gives her a new and exciting Mod"
+    - text: "Priorities 2 and 3 (ranking determined by conditions during the season):"
+    - text: "Transfuse someone in our Lineup (TBD at the end of the season) - we  now know that the Impair on a random stat that comes with Transfuse is very low, so even if it targets a Lineup relevant stat, the buff far outweighs it and we need to improve our Lineup at this point more than our Rotation"
+    - text: "Enrich if everything goes to plan and we're still in a good position or Move a pitcher into rotation if we don't perform as well and if we're hearing signs of exchanges or if they make it on the idol board. This gives us an option to make a push next season with Enrich OR protect one of our valuable Pitchers from possible plunders and exchanges"
+    - text: "4th prio:"
+    - text: "Reform Triple Threat if one of our Pitchers ends the season with it (makes a limited mod become a permanent one), if not, Reform one of the Maximalist mods that we have - we can decide which one at a later date based on how the season goes."
+  options: 
+  - key: reform
+    target: "Lady if she is overperforming, otherwise a pitcher with Triple Threat"
+  - key: transfuse
+    target: "Somebody in our lineup"
+  - key: enrich
+    target: "A boost for next season"
+  - key: move
+    target: "One of our pitchers into the rotation (to protect them from theft)"

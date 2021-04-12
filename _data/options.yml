@@ -1,207 +1,188 @@
-- key: sky-limit
-  name: "Sky's the Limit"
-  value: 3
-  chance: 3
+- key: early-riser
+  name: "Early Riser"
+  value: 0
+  chance: 0
   type: Blessing
-  review: "We don't end up in Maximum Blaseball very much, sadly - this is a big swing when it does happen, though. Lift want it, but it probably won't be widely pursued otherwise."
 
-- key: afterparty
-  name: "Afterparty"
-  value: 4
-  chance: 2
-  weight: 14
+- key: middle-of-the-pack
+  name: "Middle of the Pack"
+  value: 0
+  chance: 0
   type: Blessing
-  review: "Surprisingly, this looks like the best option for raw star gain. We also expect some competition on this."
 
-- key: middling
-  name: "Middling"
+- key: fashionably-late
+  name: "Fashionably Late"
+  value: 0
+  chance: 0
+  type: Blessing
+
+- key: posterizer
+  name: "Posterizer"
+  value: 0
+  chance: 0
+  type: Blessing
+  review: "This is speculated to grant the player Overperforming during the postseason. If so, it's powerful - doesn't stop us partying when things are going badly, and a big boost when things are going well!"
+
+- key: bats-supply-run
+  name: "Bats Supply Run"
+  value: 0
+  chance: 0
+  type: Blessing
+  review: "Most of our players have bats already, but there's some speculation that their durability may expire at the end of the season."
+
+- key: caps-supply-run
+  name: "Caps Supply Run"
+  value: 0
+  chance: 0
+  type: Blessing
+  review: "We have more empty item slots than most teams, so these bulk blessings may be more useful for us."
+
+- key: shoes-supply-run
+  name: "Shoes Supply Run"
+  value: 0
+  chance: 0
+  type: Blessing
+  review: "We have more empty item slots than most teams, so these bulk blessings may be more useful for us."
+
+- key: gloves-supply-run
+  name: "Gloves Supply Run"
+  value: 0
+  chance: 0
+  type: Blessing
+  review: "We have more empty item slots than most teams, so these bulk blessings may be more useful for us."
+
+- key: handcrafted-bat-drop
+  name: "Handcrafted Bat Drop"
+  value: 0
+  chance: 0
+  type: Blessing
+
+- key: handcrafted-cap-drop
+  name: "Handcrafted Cap Drop"
+  value: 0
+  chance: 0
+  type: Blessing
+
+- key: handcrafted-shoes-drop
+  name: "Handcrafted Shoes Drop"
+  value: 0
+  chance: 0
+  type: Blessing
+
+- key: handcrafted-glove-drop
+  name: "Handcrafted Glove Drop"
+  value: 0
+  chance: 0
+  type: Blessing
+
+- key: skateboard
+  name: "Skateboard"
+  value: 0
+  chance: 0
+  type: Blessing
+  review: "If this is linked to the grind rail, the lack of a grind rail in our stadium and our poor baserunning probably mean we won't benefit as much as other teams from it."
+
+- key: fired-up
+  name: "Fired Up"
+  value: 5
+  chance: 1
+  type: Blessing
+  review: "Blood blessings are generally a big power boost and highly competitive."
+
+- key: mind-trick
+  name: "Mind Trick"
+  value: 5
+  chance: 1
+  type: Blessing
+  review: "Blood blessings are generally a big power boost and highly competitive."
+
+- key: power-charge
+  name: "Power Chaaarge"
+  value: 5
+  chance: 1
+  type: Blessing
+  review: "Blood blessings are generally a big power boost and highly competitive. We'll probably target this one out of the three, mostly for theme reasons."
+
+- key: clean-up
+  name: "Clean Up"
+  value: 0
+  chance: 0
+  type: Blessing
+
+- key: weakest-link
+  name: "Weakest Link"
+  value: 0
+  chance: 0
+  type: Blessing
+
+- key: time-to-shine
+  name: "Time to Shine"
+  value: 0
+  chance: 0
+  type: Blessing
+
+- key: sweet-relief
+  name: "Sweet Relief"
   value: 1
   chance: 0
   type: Blessing
-  review: "Unless we're in good enough form for a title run next season, this will mainly deny us the benefits of Stale Popcorn and Party Time."
+  review: "This would actively undo one of our blessings from last season. Best avoided!"
 
-- key: clutch-up
-  name: "Clutch Up"
+- key: sweet-relief
+  name: "Sweet Relief"
   value: 1
   chance: 0
   type: Blessing
-  review: "Unless we're in good enough form for a title run next season, this will mainly deny us the benefits of Stale Popcorn and Party Time."
-
-- key: absolute-zero
-  name: "Absolute Zero"
-  value: 5
-  chance: 1
-  weight: 14
-  type: Blessing
-  review: "This is a moderately powerful effect. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here."
-
-- key: water-logged
-  name: "Water Logged"
-  value: 5
-  chance: 1
-  type: Blessing
-  review: "This is a moderately powerful effect. A few teams already have blood blessings and won't want this, but those that don't will probably invest heavily here. Some of us have already sent votes to the Georgias, so we would end up fighting ourselves on this."
-
-- key: bird-brain
-  name: "Bird Brain"
-  value: 4
-  chance: 3
-  weight: 2
-  type: Blessing
-  review: "This is substantial pitching boost in bird weather. We're pretty positive on this and we haven't heard that much chatter from other teams."
-
-- key: mulligan
-  name: "Mulligan"
-  value: 2
-  chance: 0
-  type: Blessing
-  review: "Our worst hitter is Evelton McBlase II, who is Romain' and unlikely to stick around forever. That's a bit sad, since Fourth Strike is very powerful."
-
-- key: team-defense
-  name: "Defense Practice"
-  value: 4
-  chance: 2
-  weight: 3
-  type: Blessing
-  review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table."
-
-- key: team-running
-  name: "Running Practice"
-  value: 4
-  chance: 2
-  type: Blessing
-  review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table."
-
-- key: team-batting
-  name: "Batting Practice"
-  value: 4
-  chance: 2
-  weight: 14
-  type: Blessing
-  review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table. Batting is probably a key target for us at the moment."
-
-- key: team-pitching
-  name: "Pitching Practice"
-  value: 4
-  chance: 2
-  type: Blessing
-  review: "These are very small boosts by the standards of historical blessings. However, if we want stars right now, these are the options on the table."
+  review: "This would actively undo one of our blessings from last season. Best avoided!"
 
 - key: shadow-batting
   name: "Shadow Batting Practice"
-  value: 3
-  weight: 2
-  chance: 3
+  value: 0
+  chance: 0
   type: Blessing
-  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
+  review: "We've taken the top-tier players out of our shadows, but these might help us train up some feasible backup players. They weren't that competitive last season."
 
 - key: shadow-running
   name: "Shadow Running Practice"
-  value: 3
-  chance: 3
+  value: 0
+  chance: 0
   type: Blessing
-  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
+  review: "We've taken the top-tier players out of our shadows, but these might help us train up some feasible backup players. They weren't that competitive last season."
 
 - key: shadow-defense
   name: "Shadow Defense Practice"
-  value: 3
-  chance: 3
+  value: 0
+  chance: 0
   type: Blessing
-  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
+  review: "We've taken the top-tier players out of our shadows, but these might help us train up some feasible backup players. They weren't that competitive last season."
 
 - key: shadow-pitching
   name: "Shadow Pitching Practice"
-  value: 3
-  chance: 3
-  type: Blessing
-  review: "These are substantially bigger boosts than their non-shadow counterparts, but for most teams their Shadows aren't worth expending votes to improve."
-
-- key: easy-out
-  name: "Easy Out"
-  value: 2
+  value: 0
   chance: 0
   type: Blessing
-  review: "Our worst hitter is already last in the lineup."
-
-- key: lead-off
-  name: "Lead Off"
-  value: 1
-  chance: 0
-  type: Blessing
-  review: "We think this will probably do more harm than good, unfortunately!"
-
-- key: blood-pact
-  name: "Blood Pact"
-  value: 4
-  chance: 2
-  weight: 3
-  type: Blessing
-  review: "Siphon is a very powerful modifier, which has historically produced some excellent players. It's not clear whether this steals a player or not. If it does, the targets are pretty good."
-
-
-- key: fringe-benefit
-  name: "Fringe Benefit"
-  value: 4
-  chance: 2
-  type: Blessing
-  review: "Perk players play better in coffee weather. This plays well with our stadium, which has increased Coffee 3 weather. It's not clear whether this steals a player or not. If it does, the targets are pretty good."
-
-- key: epiphany
-  name: "Epiphany"
-  value: 4
-  chance: 3
-  weight: 14
-  type: Blessing
-  review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This is the best one in terms of raw stars, and a decent boost to epiphany could make a player into a home run machine."
-
-- key: dirty-bulk
-  name: "Dirty Bulk"
-  value: 3
-  chance: 3
-  type: Blessing
-  review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This one will improve a player's contact substantially."
-
-
-- key: living-single
-  name: "Living Single"
-  value: 3
-  chance: 2
-  weight: 2
-  type: Blessing
-  review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This one seems to be the most contested elsewhere - it helps prevent home runs."
-
-- key: triple-crown
-  name: "Triple Crown"
-  value: 3
-  chance: 2
-  weight: 2
-  type: Blessing
-  review: "The single-stat blessings are weak in terms of raw stars, but have the power to change how a given player plays. This one helps batters get more bases per hit."
+  review: "We've taken the top-tier players out of our shadows, but these might help us train up some feasible backup players. They weren't that competitive last season."
 
 - key: move
   name: "Move"
-  value: 5
-  weight: 15
+  value: 0
   target: "Torus McGhee to the Shadow rotation"
   type: Will
   definition: "Move a player to a different position on the team. This can include moves in and out of the shadows"
-  review: "Our players are mostly in the right places, but Torus is a notable weakness in our rotation. He's not a great batter either, so we want to Move him to the Shadows, out of play altogether." 
 
 - key: foreshadow
   name: "Foreshadow"
-  value: 5
-  weight: 15
+  value: 0
   target: "Jasper Ji-Eun for Foxy Pebble"
   type: Will
   definition: "Swap a player in the team's Shadows with a player in the roster"
-  review: "Foxy in our Shadows is a star better - getting them out will be a big boost." 
 
 - key: reform
   name: "Reform"
   value: 0
   type: Will
   definition: "Re-roll a modification on one of our players, replacing it with a different modification"
-  review: "We don't know exactly how Reform works yet, but the possibility of replacing a debuff (even one that doesn't fire very much) with a buff is interesting." 
+  review: "Lady has been flagged up as a particular target - if she finished the season Underperforming we could reroll that, otherwise we could reroll Homebody to make her overperform permanently.." 
 
 - key: alternate-trust
   name: "Alternate Trust"
@@ -209,6 +190,18 @@
   type: Will
   definition: "Convert one of our players to an Alternate, re-rolling their stats and granting them a mystery benefit"
   review: "Combining two Wills into one is tempting, but most of our players risk coming out weaker than before as an Alternate and Trusts have been weak so far."
+
+- key: transfuse
+  name: "Transfuse"
+  value: 0
+  type: Will
+  definition: "Boosts a playe's stats in one of the four categories, but impair them in a random other one"
+
+- key: enrich
+  name: "Enrich"
+  value: 0
+  type: Will
+  definition: "Choose one of several temporary buffs to the team for a season."
 
 - key: equivalent-exchange
   name: "Equivalent Exchange"
@@ -223,17 +216,3 @@
   type: Will
   definition: "Swap for a player from the idol board, sending a random player back"
   review: "Trading players can be a sensitive subject - we'll generally only recommend it if there's a plan with strong support from both teams."
-
-- key: transfuse
-  name: "Transfuse"
-  value: 0
-  type: Will
-  definition: "Boosts a playe's stats in one of the four categories, but impair them in a random other one"
-  review: "A nerfed Infuse is still potentially powerful. Transfuse is better for pitchers than batters, as they are less likely to make use of the lost stars."
-
-- key: enrich
-  name: "Enrich"
-  value: 0
-  type: Will
-  definition: "Choose one of several temporary buffs to the team for a season. Notably, this now includes Life of the Party, which increases the benefits of Party Time"
-  review: "Right now, we're unlikely to be a serious competitor, so Enrich would mainly benefit us by increasing the benefits of our party time through Life of the Party."
