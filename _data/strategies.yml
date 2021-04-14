@@ -45,6 +45,9 @@
     - text: "Enrich if everything goes to plan and we're still in a good position or Move a pitcher into rotation if we don't perform as well and if we're hearing signs of exchanges or if they make it on the idol board. This gives us an option to make a push next season with Enrich OR protect one of our valuable Pitchers from possible plunders and exchanges"
     - text: "4th prio:"
     - text: "Reform Triple Threat if one of our Pitchers ends the season with it (makes a limited mod become a permanent one), if not, Reform one of the Maximalist mods that we have - we can decide which one at a later date based on how the season goes."
+    - text: "If we do end up going for Transfuse on a Batter, we have a few possible targets that could help us fairly equally, and if this is a long term plan of improving our lineup, it doesn't matter too much  what the order is if the results aren't too different."
+    - text: "If Transfuse is going to be one of the wills we do, an option is instead of deciding on \"Transfuse Mira\" or any other specific player,  we say \"Transfuse anyone of A, B or C\"?"
+    - text: "It lets people vote for their  personal faves and as long as there's not a big discrepancy in the usefullness of transfuse on each of them, it should be fine stats wise as well."
   options: 
   - key: reform
     target: "Lady if she is overperforming, otherwise a pitcher with Triple Threat"
