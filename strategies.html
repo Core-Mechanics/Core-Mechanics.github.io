@@ -10,6 +10,10 @@ title: Strategies
   We're currently gathering strategies for this season. Feel free to submit your ideas <a href="{{ site.data.settings["season"].strategyFormUrl }}">here</a>.
 {% endif %}
 
+{% if site.data.settings["season"].strategyPollUrl %}
+  We also have <a href="{{ site.data.settings["season"].strategyPollUrl }}">a poll</a> to gauge interest in the options suggested so far.
+{% endif %}
+
 {% for strategy in site.data.strategies %}
     <h3>{{strategy.name}}</h3>
     <div>Owner: <strong>{{strategy.owner}}</strong></div>
