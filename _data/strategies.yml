@@ -127,8 +127,7 @@
 
 - name: "Blather's Back, OH YEAH!"
   owner: "ShadowedStranger #0651"
-  imageUrl: "assets/img/great_machine.jpg"
-  description: 'If Jasper Blather {11.4 Stars} (Of the Wild Wings)  and Evelton McBlase the 2nd [9.1 Stars] (On our team) get within 2 stars of each other by the end of the Season (Which will only take one party/chomp) We Equivalent Exchange one for the other. It's a risky play that might require timing to pull off, but we get to see if Equivalent Exchange counts as "Recruitment" and our favourite (only) Middle-Aged Word Mechanic back.'
+  description: "If Jasper Blather {11.4 Stars} (Of the Wild Wings)  and Evelton McBlase the 2nd [9.1 Stars] (On our team) get within 2 stars of each other by the end of the Season (Which will only take one party/chomp) We Equivalent Exchange one for the other. It's a risky play that might require timing to pull off, but we get to see if Equivalent Exchange counts as \"Recruitment\" and our favourite (only) Middle-Aged Word Mechanic back."
   options: 
   - key: equivalent-exchange
     target: "Evelton McBlase for Jasper Blather"
