@@ -2,8 +2,8 @@ season:
   number: 16
   finalised: 0
   displayTargetMods: 0
-  blessingWeighting: 5
-  willWeighting: 5
+  blessingWeighting: 15
+  willWeighting: 3
   strategyFormUrl: "https://forms.gle/SSU4VXSaaXcatr5T7"
   strategyPollUrl: "https://forms.gle/Zx2jxHy9KVsnyVVK7"
   formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeWTYsCs7mPwqksNrhwdlRgM2MDuyWfLK5Wbbyg3CsVcz3B3w/viewform"

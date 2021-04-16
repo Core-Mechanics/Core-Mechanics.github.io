@@ -18,6 +18,7 @@
 
 - key: posterizer
   name: "Posterizer"
+  weight: 2
   value: 0
   chance: 0
   type: Blessing
@@ -53,24 +54,28 @@
 
 - key: handcrafted-bat-drop
   name: "Handcrafted Bat Drop"
+  weight: 1
   value: 0
   chance: 0
   type: Blessing
 
 - key: handcrafted-cap-drop
   name: "Handcrafted Cap Drop"
+  weight: 1
   value: 0
   chance: 0
   type: Blessing
 
 - key: handcrafted-shoes-drop
   name: "Handcrafted Shoes Drop"
+  weight: 1
   value: 0
   chance: 0
   type: Blessing
 
 - key: handcrafted-glove-drop
   name: "Handcrafted Glove Drop"
+  weight: 1
   value: 0
   chance: 0
   type: Blessing
@@ -99,6 +104,7 @@
 - key: power-charge
   name: "Power Chaaarge"
   value: 5
+  weight: 75
   chance: 1
   type: Blessing
   review: "Blood blessings are generally a big power boost and highly competitive. We'll probably target this one out of the three, mostly for theme reasons."
@@ -130,6 +136,7 @@
 
 - key: shadow-batting
   name: "Shadow Batting Practice"
+  weight: 1
   value: 0
   chance: 0
   type: Blessing
@@ -137,6 +144,7 @@
 
 - key: shadow-running
   name: "Shadow Running Practice"
+  weight: 1
   value: 0
   chance: 0
   type: Blessing
@@ -144,6 +152,7 @@
 
 - key: shadow-defense
   name: "Shadow Defense Practice"
+  weight: 1
   value: 0
   chance: 0
   type: Blessing
@@ -151,6 +160,7 @@
 
 - key: shadow-pitching
   name: "Shadow Pitching Practice"
+  weight: 1
   value: 0
   chance: 0
   type: Blessing
@@ -186,12 +196,16 @@
 
 - key: transfuse
   name: "Transfuse"
+  weight: 2
+  target: "A non-Evelton batter of your choice, for Hitting"
   value: 0
   type: Will
   definition: "Boosts a playe's stats in one of the four categories, but impair them in a random other one"
 
 - key: enrich
   name: "Enrich"
+  target: "Fourth Strike"
+  weight: 1
   value: 0
   type: Will
   definition: "Choose one of several temporary buffs to the team for a season."
