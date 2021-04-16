@@ -3,7 +3,7 @@ layout: default
 title: Calculator
 ---
 
-{% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse %}
+{% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | sort: "type" | reverse %}
 
 <h1>Voting Calculator</h1>
 <a href="{% link index.html %}" class="back-link">← Back</a>
