@@ -54,7 +54,7 @@
 
 - key: ring-drop
   name: "Handcrafted Ring Drop"
-  value: 4
+  value: 3
   chance: 2
   type: Blessing
 
@@ -72,7 +72,7 @@
 
 - key: dexterity-drop
   name: "Dexterity Crate Drop"
-  value: 3
+  value: 4
   chance: 2
   type: Blessing
 
