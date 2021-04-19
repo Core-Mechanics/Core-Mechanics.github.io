@@ -53,3 +53,21 @@
   description: "Prioritise stadium renovation over blessings this season."
   details:
     - text: "Blessings this season are likely to get around a million votes, meaning we have to spend around a hundred million coins to expect to win one. Instead, we could push to maximise our stadium renovations this season, potentially getting up to three choices if the options look good (four is probably out of our budget, sadly)."
+
+- name: "The Mindy Wimdy"
+  owner: "hillexed"
+  description: "Reroll Triple Threat on Mindy Kugel for a free mod."
+  details:
+    - text: "A pitcher gets Triple Threat at the start of a game in Coffee 3s weather, and has a chance of losing it at the start of inning 3 every game they pitch. From FK we know when our last coffee 3s weather is. It's a permanent modification, and wills go off based on the situation when they're signed - which means if we vote to reroll Triple Threat at the start of that day, Mindy gets a free random modification. Even if Mindy loses triple threat later, because of how wills work, we think Reroll will give her a modification in exchange for nothing!"
+    - text: "This season, Mindy pitches in Coffee 3s weather (getting Triple Threat) on days 59 and 83."
+      forbiddenKnowledgeWarning: "Schedule"
+  pros:
+    - text: "Free mod! Create something from nothing! We don't lose anything!"
+    - text: "Makes our pitchers more unique"
+    - text: "Shenanigans potential"
+    - text: "If we want to vote for 3-4 will ideas, this is a solid one"
+  cons:
+    - text: "We need to act fast-ish"
+  options:
+  - key: reform
+    target: "Mindy and Triple Threat"
