@@ -120,13 +120,13 @@
 
 - key: last-not-least
   name: "Last Not Least"
-  value: 2
+  value: 4
   chance: 1
   type: Blessing
 
 - key: set-the-table
   name: "Set the Table"
-  value: 0
+  value: 2
   chance: 3
   type: Blessing
 
