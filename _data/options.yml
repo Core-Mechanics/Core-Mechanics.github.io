@@ -138,6 +138,6 @@
 
 - key: untouchable
   name: "Untouchable"
-  value: 2
+  value: 4
   chance: 1
   type: Blessing
