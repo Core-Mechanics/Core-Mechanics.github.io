@@ -5,7 +5,7 @@
     - text: "This plan uses the following principles, to maximise the expected returns on our blessing investment:"
     - text: "(1) Prioritising blessings with a high expected-value to expected-votes ratio"
     - text: "(2) Spreading over multiple blessings, to reduce competition with ourselves"
-    - text: "(3) Investing more in high-value low-chance blessings than high-chance low-value blessings (since we can spemd more votes on them before we start competing with ourselves)."
+    - text: "(3) Investing more in high-value low-chance blessings than high-chance low-value blessings (since we can spend more votes on them before we start competing with ourselves)."
   options:
   - key: xenomorph
     target: "30%"
@@ -47,8 +47,6 @@
   options:
   - key: move
     target: "Jolene (to the shadows)"
-  - key: foreshadow
-    target: tbd
 
 - name: "Construction Project"
   owner: "Rob"
