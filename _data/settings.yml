@@ -1,14 +1,11 @@
 season:
-  number: 16
-  finalised: 1
+  number: 17
+  finalised: 0
   displayTargetMods: 0
-  blessingWeighting: 17
-  willWeighting: 3
+  blessingWeighting: 1
+  willWeighting: 1
+  blessingsDoc: "https://docs.google.com/spreadsheets/d/1vuqvY6qQAP0PwWaNikr-4I4kpcA8ll7LxhbYxg0mRzA/edit?usp=sharing"
   strategyFormUrl: "https://forms.gle/SSU4VXSaaXcatr5T7"
-  strategyPollUrl: "https://forms.gle/Zx2jxHy9KVsnyVVK7"
-  formUrl: 
-    "https://docs.google.com/forms/d/e/1FAIpQLSeWTYsCs7mPwqksNrhwdlRgM2MDuyWfLK5Wbbyg3CsVcz3B3w/viewform"
-
 documents:
   strategy: "https://docs.google.com/document/d/e/2PACX-1vTeyknT3OIEBEDvNKT8P5Km58y-7P3mEq2-mtC3rn3uqVvmAxiUV1uQyKgt71-Luj5Ux5vOmT5jLQga/pub"
   stadium: "https://docs.google.com/document/d/e/2PACX-1vQtchnE5O62EXEl3Qa2kFnKUJ8ZuB8Z1F6EwJoCfRG4KiPdfstaZ16gXdMPO0l6aEchRSljytM96gHm/pub"
