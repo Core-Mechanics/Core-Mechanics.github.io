@@ -107,6 +107,24 @@
   - key: "reform"
     target: "Many possibilities!"
 
+- name: "Rebuild the Mechs: A Non-Tanking Alternative"
+  owner: "Putin'sSideChick"
+  description: "We don't really have a specific will plan that doesn't involve tanking right now, so I'm hoping this can be at least one such option going forward. There are a couple ways of doing this, so I'm submitting a couple ideas. This one is more heavily focused on getting us to the best place we can long term using incremental steps to improve the team each season. First, we Move Bottles to the Shadows with the intention of Foreshadowing Mindy for them next season to get them back in the lineup. This allows us to control where we put them so we don't have to risk losing Bottles to a Zoey shadow Plunder next season, and gets us one step closer to fixing our Reverbed mess.  Second, we Transfuse the batting of a non-Lady, Evelton, Mira, or Mindy batter to further boost our lineup."
+  options:
+  - key: transfuse
+    target: "The batting of a non-Lady, Evelton, Mira, or Mindy batter"
+  - key: move
+    target: "Bottles to the Shadows"
+
+- name: "It's Our Good Rotation and We Need It Now"
+  owner: "Putin'sSideChick"
+  description: "This plan gets our rotation back up to above average immediately, while still leaving us with room to get Zoey and Mindy back into it later if we get Zoey back. First, we Move Bottles to the shadows. Using move allows us to choose where they end up, and reduces the risk of us losing them in a Zoey Plunder. Second, we Foreshadow Dot for Cravel. This gets our good shadows pitcher into the rotation, which is exactly what we saved them for. This leaves us with 3 solid to great pitchers back in our rotation, which should slingshot us back towards contention and could pair well with the party time boosts our lineup receives this season."
+  options:
+  - key: move
+    target: "Bottles, to the shadows"
+  - key: foreshadow
+    target: "Polkadot Patterson for Cravel"
+
 - name: "Construction Project"
   owner: "Rob"
   description: "Prioritise stadium renovation over blessings this season."
