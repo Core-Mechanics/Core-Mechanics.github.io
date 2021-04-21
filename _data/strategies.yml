@@ -21,27 +21,30 @@
     - text: "(1) Prioritising blessings with a high expected-value to expected-votes ratio"
     - text: "(2) Spreading over multiple blessings, to reduce competition with ourselves"
     - text: "(3) Investing more in high-value low-chance blessings than high-chance low-value blessings (since we can spend more votes on them before we start competing with ourselves)."
+    - text: "The crate blessings were chosen to avoid pitchers (too many we don't want to use as pitchers long-term) and focus on item types that boost high-impact stats"
   options:
   - key: xenomorph
     target: "30%"
-  - key: untouchable
-    target: "10%"
+  - key: dexterity-drop
+    target: "15%"
+  - key: jersey-drop
+    target: "15%"
   - key: last-not-least
     target: "10%"
-  - key: dexterity-drop
-    target: "10%"
-  - key: intelligence-drop
-    target: "10%"
-  - key: jersey-drop
-    target: "10%"
-  - key: necklace-drop
-    target: "5%"
   - key: buddies
+    target: "5%"
+  - key: necklace-drop
     target: "5%"
   - key: slime-drop
     target: "5%"
   - key: blood-drop
     target: "5%"
+  - key: jersey-run
+    target: "5%"
+  - key: power-chaarge
+    target: "5%"
+  - key: set-the-table
+    target: "We should re-allocate up to 15% to this if party time makes it worthwhile"
 
 - name: "Project Streamline"
   owner: "zed 2"
