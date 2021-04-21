@@ -125,6 +125,22 @@
   - key: foreshadow
     target: "Polkadot Patterson for Cravel"
 
+- name: "Get back on the horse"
+  owner: "okay"
+  description: "Patch up the most serious deficiencies with our team, if it looks like partying has otherwise got us back into shape."
+  details:
+    - text: "Submitting this plan halfway through the season while we're tanking pretty hard, so it looks like we're going to be partying quite a bit later on. If we get enough buffs, it's possible we are able to turn right back around and become playoff contenders again. Truly this plan is only worth considering if we've gotten enough buffs and want to make steps this election to improve our team and try to win the championship."
+    - text: "Move Alto to the Lineup - with their blooddrain Batting buff and their Bat which can't be destroyed, they are actually a pretty decent batter, especially compared to the rest of our team."
+    - text: "Foreshadow Bottles for Cravel - we still have 3 decent pitchers in our Shadows. The sooner we bring one of them out the better we will perform, and this lets us have a smaller, really strong rotation."
+    - text: "The last will assumes Free Will, and we can figure out if it makes more sense to Transfuse a pitcher or batter, or maybe even Enrich. It's not a bad idea to spread out our Will votes a bit to help prevent a wimdy, so maybe votes in both make sense."
+  options:
+  - key: move
+    target: "Polkadot Patterson to the Lineup"
+  - key: foreshadow
+    target: "Bottles for Cravel Gesundheit"
+  - key: transfuse
+  - key: enrich
+
 - name: "Construction Project"
   owner: "Rob"
   description: "Prioritise stadium renovation over blessings this season."
