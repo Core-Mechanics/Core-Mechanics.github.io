@@ -24,7 +24,7 @@
 
 - key: jersey-run
   name: "Jerseys Supply Run"
-  value: 2
+  value: 3
   chance: 3
   type: Blessing
 
@@ -48,7 +48,7 @@
 
 - key: jersey-drop
   name: "Handcrafted Jersey Drop"
-  value: 3
+  value: 4
   chance: 2
   type: Blessing
 
@@ -90,7 +90,7 @@
 
 - key: intelligence-drop
   name: "Intelligence Crate Drop"
-  value: 4
+  value: 3
   chance: 2
   type: Blessing
 
@@ -108,13 +108,13 @@
 
 - key: alternator
   name: "Alternator"
-  value: 0
+  value: 1
   chance: 2
   type: Blessing
 
 - key: strange-attractor
   name: "Strange Attractor"
-  value: 0
+  value: 3
   chance: 2
   type: Blessing
 
@@ -126,7 +126,7 @@
 
 - key: set-the-table
   name: "Set the Table"
-  value: 2
+  value: 0
   chance: 3
   type: Blessing
 
@@ -138,7 +138,7 @@
 
 - key: untouchable
   name: "Untouchable"
-  value: 4
+  value: 3
   chance: 1
   type: Blessing
   
