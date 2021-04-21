@@ -148,7 +148,7 @@
   owner: "okay"
   description: "sometimes when things are bad the best thing you can do is just start building back up. i think bottles should be a batter again and then have shirai and jolene and maybe swap polkadot for cravel (the good one in the shadows) and then that'll be better than it is now. then if there are three wills then make mindy a better pitcher so that she can be a pitcher again next season."
   options:
-  - key: transfuse
+  - key: move
     target: "Bottles to the lineup"
   - key: foreshadow
     target: "Polkadot Patterson for Cravel Gesundheit"
