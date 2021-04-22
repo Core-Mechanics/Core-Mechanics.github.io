@@ -171,6 +171,48 @@
   - key: blood-drop
   - key: slime-drop
 
+- name: "Chorbtastrophe Mitigation (Level 1)"
+  owner: "Rob"
+  description: "Minimise the risk of Free Wills backfiring in our faces, by putting a small floor of known-safe votes into each non-controversial Will option."
+  details:
+    - text: "If a team with Fax Machine (like us) plunders Chorby Soul this season, Chorby could get swapped into their shadows, making it almost impossible for the team to recover (shadow players do not get targeted by Consumer attacks, but still increase their frequency). For that reason we need to minimise that risk as much as possible."
+    - text: "This option is intended to be used alongside a 'main' Will plan. The idea is to spread a small amount of our votes over many different options, to reduce the number of 'good' votes that are eliminated when one of our target Wills is selected."
+    - text: "Any Wills that are part of the main plan should be omitted and treated as superseded by the targets from the main plan."
+  pros:
+    - text: "Reduces the chance of disaster at the election somewhat."
+  cons:
+    - text: "Also reduces the chances of the Wills we're deliberately targeting."
+  options:
+    - key: move
+      target: "Evelton to the shadows"
+    - key: foreshadow
+      target: "Cravel for Bottles"
+    - key: transfuse
+      target: "Any stat used by the target player"
+    - key: enrich
+      target: "Life of the Party"
+    - key: reform
+      target: "Maximalist or Homebody"
+    - key: alternate-trust
+      target: "Evelton or Polkadot Patterson (depending on partying)"
+
+- name: "Chorbtastrophe Mitigation (Level 2)"
+  owner: "Rob"
+  description: "Takes Chorbtastrophe Mitigation one step further, and also puts a 'safe' floor of votes into Plunder and Exchange, to reduce the risk of ending up with Chorby Soul in our shadows as far as possible."
+  details:
+    - text: "The more we spread our votes, the more we reduce the chance of plundering Chorby Soul (as less of our votes are eliminated on each successful Will)."
+    - text: "Plunder votes are particularly powerful here, as they will always be counted against any votes to plunder Chorby we may have."
+  options:
+    - key: plunder
+      target: "Ideally a player in another team's shadows - failing that, a good batter."
+    - key: equivalent-exchange
+      target: "Polkadot Patterson for a good pitcher"
+  pros:
+    - text: "Reduces the chance of disaster at the election even more."
+  cons:
+    - text: "These Wills are more controversial, and may make us unpopular with the rest of the league."
+    - text: "This makes it more difficult for us to estimate how many dangerous votes we need to offset."
+
 - name: "Construction Project"
   owner: "Rob"
   description: "Prioritise stadium renovation over blessings this season."
