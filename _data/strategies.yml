@@ -213,6 +213,20 @@
     - text: "These Wills are more controversial, and may make us unpopular with the rest of the league."
     - text: "This makes it more difficult for us to estimate how many dangerous votes we need to offset."
 
+- name: "Evel2 Roamin' Homin' Boogaloo"
+  owner: "LilacianLegends (Lilac)"
+  description: "This is just us reforming Evel2's \"Roamin'\" mod so that they stick with the team.  Considering they've already been bounced around and are generally not a good player, them attaching themself to another team is otherwise inevitable and \"saddles\" that random team with a bad player. Strategically, that's not bad for us. Overall, though, Reform would be a strong pull into our team culture of betterment of self instead of sweeping less desirable players under the rug- as well as the idea that the Core has a home for everyone who needs it."
+  pros:
+  - text: "Evel2 will almost definitely party, there is so much time to party this season"
+  - text: "At least semi-synergizes with the other current strats and potential tanking, since Evel2's stats aren't great"
+  - text: "We're almost definitely getting Free Wills by now, so this ensures our third might be something we already took into consideration"
+  cons:
+    - text: "Evel2 might pull a Kelvin and just not party (for tanking, this is theoretically also a pro)"
+    - text: "Uses up a Will if it goes through"
+    - text: "Doesn't really have specifically useful strat benefits- mostly for community solidarity"
+  - key: reform
+    target: "Evelton + Roamin'"
+
 - name: "Construction Project"
   owner: "Rob"
   description: "Prioritise stadium renovation over blessings this season."
