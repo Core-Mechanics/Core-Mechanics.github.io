@@ -224,8 +224,9 @@
     - text: "Evel2 might pull a Kelvin and just not party (for tanking, this is theoretically also a pro)"
     - text: "Uses up a Will if it goes through"
     - text: "Doesn't really have specifically useful strat benefits- mostly for community solidarity"
-  - key: reform
-    target: "Evelton + Roamin'"
+  options:
+    - key: reform
+      target: "Evelton + Roamin'"
 
 - name: "Construction Project"
   owner: "Rob"
