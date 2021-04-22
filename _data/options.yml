@@ -8,12 +8,14 @@
   name: "Power Chaarge"
   value: 4
   chance: 1
+  weight: 2
   type: Blessing
 
 - key: xenomorph
   name: "Xenomorph"
   value: 5
   chance: 1
+  weight: 3
   type: Blessing
 
 - key: on-deck
@@ -50,6 +52,7 @@
   name: "Handcrafted Jersey Drop"
   value: 4
   chance: 2
+  weight: 2
   type: Blessing
 
 - key: ring-drop
@@ -74,6 +77,7 @@
   name: "Dexterity Crate Drop"
   value: 4
   chance: 2
+  weight: 2
   type: Blessing
 
 - key: slime-drop
@@ -174,6 +178,7 @@
   name: "Transfuse"
   target: "A non-Evelton batter of your choice, for Hitting"
   value: 0
+  weight: 1
   type: Will
   definition: "Boosts a playe's stats in one of the four categories, but impair them in a random other one"
 
