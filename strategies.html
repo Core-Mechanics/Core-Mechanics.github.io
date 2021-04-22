@@ -86,6 +86,12 @@ title: Strategies
                                         Medium
                                     {% when 5 %}
                                         High
+                                    {% else %}
+                                        {% if option.type != "Blessing" %}
+                                            N/A
+                                        {% else %}
+                                            Under Evaluation
+                                        {% endif %}
                                 {% endcase %}
                             </strong>
                         </td>

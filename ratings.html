@@ -21,24 +21,26 @@ title: Election Ratings
 {% assign ordered_options = site.data.options | sort: "value" | sort: "weight" | reverse | sort: "type" %}
 {% for option in ordered_options %}
   <h3>{{option.name}}</h3>
-  <div class="value-{{option.value}}">Value: 
-    <strong>
-      {% case option.value %}
-        {% when 0 %}
-            Under Evaluation
-        {% when 1 %}
-            Harmful
-        {% when 2 %}
-            None
-        {% when 3 %}
-            Low
-        {% when 4 %}
-            Medium
-        {% when 5 %}
-            High
-      {% endcase %}
-    </strong>
-  </div>
+  {% if option.type == "Blessing" %}
+    <div class="value-{{option.value}}">Value: 
+      <strong>
+        {% case option.value %}
+          {% when 0 %}
+              Under Evaluation
+          {% when 1 %}
+              Harmful
+          {% when 2 %}
+              None
+          {% when 3 %}
+              Low
+          {% when 4 %}
+              Medium
+          {% when 5 %}
+              High
+        {% endcase %}
+      </strong>
+    </div>
+  {% endif %}
   {% if option.type == "Blessing" and option.value != 0 %}
     <div class="chance-{{option.chance}}">Chance of Winning:  
       <strong>
