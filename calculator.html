@@ -7,6 +7,17 @@ title: Calculator
 
 <h1>Voting Calculator</h1>
 <a href="{% link index.html %}" class="back-link">← Back</a>
+
+
+
+{% if site.data.settings["season"].finalised == 0 %}
+  <div class="warning">
+    We recommend waiting until our games have finished before choosing what to vote for, since a lot can happen in a game of blaseball.<br/><br/>
+    If you need to vote early, the suggestions below should be relatively safe options that will be useful regardless.<br/><br/>
+    It's also usually safer to vote for Blessings than Wills early on, since the chosen players for Wills may not still be around by the end of the season.
+  </div>  
+{% endif %}
+
 <div class="input-group">
     <label for="vote-input">Votes:</label>
     <input id="vote-input" class="number-input" type="number"/>
