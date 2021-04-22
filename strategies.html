@@ -71,7 +71,7 @@ title: Strategies
                                 N/A
                             </td>
                         {% endif %}
-                        <td class="value-{{option.value}}">
+                        <td class="value-{{option.value | default : 0}}">
                             <strong>
                                 {% case option.value %}
                                     {% when 0 %}
