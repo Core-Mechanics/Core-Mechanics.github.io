@@ -2,7 +2,7 @@ season:
   number: 17
   finalised: 0
   displayTargetMods: 0
-  blessingWeighting: 1
+  blessingWeighting: 9
   willWeighting: 1
   blessingsDoc: "https://docs.google.com/spreadsheets/d/1vuqvY6qQAP0PwWaNikr-4I4kpcA8ll7LxhbYxg0mRzA/edit?usp=sharing"
   strategyFormUrl: "https://forms.gle/5KXNV1sa992YrGiT6"
