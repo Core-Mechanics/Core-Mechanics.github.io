@@ -1,18 +1,3 @@
-- name: "Fix the Lineup"
-  owner: "Putin'sSideChick"
-  description: "Move Shirai to the shadows, wherever Zoey is not. (Jolene is the better pitcher, so I think it could be fun to let them party and hit crazy high levels. Also less risk if we're wrong about how the shadows work for Plunder) Then, transfuse a batter (not Lady, Mindy, or Evelton. Bottles counts as a batter because that's where their long term future is). This should be compatible with tank plans, or even the rotation streamlining plan as well as any blessing plans that target lineup blessings."
-  options:
-  - key: transfuse
-    target: "A batter (not including Lady, Mindy, or Evelton, but including Bottles)"
-  - key: move
-    target: "Shirai, to the shadows"
-  - key: last-not-least
-  - key: dexterity-drop
-  - key: jersey-drop
-  - key: necklace-drop
-  - key: jersey-run
-  - key: buddies
-
 - name: "Distributed System"
   owner: "Rob"
   description: "Distribute our blessing votes with the aim of maximising the impact of each vote cast."
