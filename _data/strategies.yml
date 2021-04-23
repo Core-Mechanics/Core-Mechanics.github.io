@@ -3,7 +3,7 @@
   description: "Move Shirai to the shadows, wherever Zoey is not. (Jolene is the better pitcher, so I think it could be fun to let them party and hit crazy high levels. Also less risk if we're wrong about how the shadows work for Plunder) Then, transfuse a batter (not Lady, Mindy, or Evelton. Bottles counts as a batter because that's where their long term future is). This should be compatible with tank plans, or even the rotation streamlining plan as well as any blessing plans that target lineup blessings."
   options:
   - key: transfuse
-    target: "A batter (not includingLady, Mindy, or Evelton, but including Bottles)"
+    target: "A batter (not including Lady, Mindy, or Evelton, but including Bottles)"
   - key: move
     target: "Shirai, to the shadows"
   - key: last-not-least
@@ -64,24 +64,6 @@
   - key: move
     target: "Jolene (to the shadows)"
 
-- name: "The Mindy Wimdy"
-  owner: "hillexed"
-  description: "Reroll Triple Threat on Mindy Kugel for a free mod."
-  details:
-    - text: "A pitcher gets Triple Threat at the start of a game in Coffee 3s weather, and has a chance of losing it at the start of inning 3 every game they pitch. From FK we know when our last coffee 3s weather is. It's a permanent modification, and wills go off based on the situation when they're signed - which means if we vote to reroll Triple Threat at the start of that day, Mindy gets a free random modification. Even if Mindy loses triple threat later, because of how wills work, we think Reroll will give her a modification in exchange for nothing!"
-    - text: "This season, Mindy pitches in Coffee 3s weather (getting Triple Threat) on days 59 and 83."
-      forbiddenKnowledgeWarning: "Schedule"
-  pros:
-    - text: "Free mod! Create something from nothing! We don't lose anything!"
-    - text: "Makes our pitchers more unique"
-    - text: "Shenanigans potential"
-    - text: "If we want to vote for 3-4 will ideas, this is a solid one"
-  cons:
-    - text: "We need to act fast-ish"
-  options:
-  - key: reform
-    target: "Mindy and Triple Threat"
-
 - name: "What WILL You Choose"
   owner: "Gokimster"
   description: "This strategy is meant to work in tandem with other strategies and provides them with options for wills if they only rely on 1 or 2 to work."
@@ -110,66 +92,40 @@
   - key: "reform"
     target: "Many possibilities!"
 
-- name: "Rebuild the Mechs: A Non-Tanking Alternative"
+- name: "Retool The Mechs"
   owner: "Putin'sSideChick"
-  description: "We don't really have a specific will plan that doesn't involve tanking right now, so I'm hoping this can be at least one such option going forward. There are a couple ways of doing this, so I'm submitting a couple ideas. This one is more heavily focused on getting us to the best place we can long term using incremental steps to improve the team each season. First, we Move Bottles to the Shadows with the intention of Foreshadowing Mindy for them next season to get them back in the lineup. This allows us to control where we put them so we don't have to risk losing Bottles to a Zoey shadow Plunder next season, and gets us one step closer to fixing our Reverbed mess.  Second, we Transfuse the batting of a non-Lady, Evelton, Mira, or Mindy batter to further boost our lineup."
+  description: "Retool the Mechs is a Long term strategy plan geared towards returning the Mechs to contention as quickly as possible. It also explicitly lays out options for us to get both Lady and Zoey back, if their new teams are willing to make the trade back as has been indicated."
   options:
-  - key: transfuse
-    target: "The batting of a non-Lady, Evelton, Mira, or Mindy batter"
-  - key: move
-    target: "Bottles to the Shadows"
-
-- name: "It's Our Good Rotation and We Need It Now"
-  owner: "Putin'sSideChick"
-  description: "This plan gets our rotation back up to above average immediately, while still leaving us with room to get Zoey and Mindy back into it later if we get Zoey back. First, we Move Bottles to the shadows. Using move allows us to choose where they end up, and reduces the risk of us losing them in a Zoey Plunder. Second, we Foreshadow Dot for Cravel. This gets our good shadows pitcher into the rotation, which is exactly what we saved them for. This leaves us with 3 solid to great pitchers back in our rotation, which should slingshot us back towards contention and could pair well with the party time boosts our lineup receives this season."
-  options:
-  - key: move
-    target: "Bottles, to the shadows"
   - key: foreshadow
-    target: "Polkadot Patterson for Cravel"
-
-- name: "Get Back on the Horse"
-  owner: "okay"
-  description: "Patch up the most serious deficiencies with our team, if it looks like partying has otherwise got us back into shape."
-  details:
-    - text: "Submitting this plan halfway through the season while we're tanking pretty hard, so it looks like we're going to be partying quite a bit later on. If we get enough buffs, it's possible we are able to turn right back around and become playoff contenders again. Truly this plan is only worth considering if we've gotten enough buffs and want to make steps this election to improve our team and try to win the championship."
-    - text: "Move Alto to the Lineup - with their blooddrain Batting buff and their Bat which can't be destroyed, they are actually a pretty decent batter, especially compared to the rest of our team."
-    - text: "Foreshadow Bottles for Cravel - we still have 3 decent pitchers in our Shadows. The sooner we bring one of them out the better we will perform, and this lets us have a smaller, really strong rotation."
-    - text: "The last will assumes Free Will, and we can figure out if it makes more sense to Transfuse a pitcher or batter, or maybe even Enrich. It's not a bad idea to spread out our Will votes a bit to help prevent a wimdy, so maybe votes in both make sense."
-  options:
-  - key: move
-    target: "Polkadot Patterson to the Lineup"
-  - key: foreshadow
-    target: "Bottles for Cravel Gesundheit"
+    target: "Combs for Bottles"
   - key: transfuse
+    target: "A batter, TBD"
   - key: enrich
-
-- name: "When Life Gives You Lemons Make Lemonade"
-  owner: "okay"
-  description: "sometimes when things are bad the best thing you can do is just start building back up. i think bottles should be a batter again and then have shirai and jolene and maybe swap polkadot for cravel (the good one in the shadows) and then that'll be better than it is now. then if there are three wills then make mindy a better pitcher so that she can be a pitcher again next season."
-  options:
-  - key: move
-    target: "Bottles to the lineup"
-  - key: foreshadow
-    target: "Polkadot Patterson for Cravel Gesundheit"
-  - key: transfuse
-    target: "Mindy's pitching"
-  - key: on-deck
-  - key: grounded
-  - key: untouchable
-  - key: set-the-table
-  - key: jersey-run
-  - key: ring-run
-  - key: necklace-run
-  - key: sunglasses-run
-  - key: jersey-drop
-  - key: ring-drop
-  - key: necklace-drop
-  - key: sunglasses-drop
-  - key: intelligence-drop
-  - key: dexterity-drop
-  - key: blood-drop
-  - key: slime-drop
+    target: "Life of the Party"
+  details:
+  - text: "This would likely happen over 3-4 seasons, as it relies heavily on the use of Foreshadow, Move, and Plunder to get our players back where we want them. Ideally, the plan would go off like this, though this does rely heavily on cooperation from the Firefighters and Steaks. The Steaks have told us that they will try to Shadow Zoey to cooperate, but we do not have official word from the Fridays, though it has been rumored that they are interested in cooperating."
+  - text: "Season 17 Election (This Season): "
+  - text: "1. Foreshadow Combs for Bottles"
+  - text: "2. Tranfuse a Batter"
+  - text: "3. Enrich Life of the Party"
+  - text: "Season 18 Election:"
+  - text: "1. Plunder Lady Matsuyama"
+  - text: "2. Transfuse a Batter"
+  - text: "3. Whatever we want! (If applicable)"
+  - text: "Season 19 Election:"
+  - text: "1. Foreshadow Mindy for Lady"
+  - text: "2. Plunder Zoey Kirchner"
+  - text: "3. Whatever we want! (If applicable)"
+  - text: "Season 20 Election:"
+  - text: "1. Foreshadow our worst pitcher for Zoey (if she hasn't been brought in by the Fax Machine)"
+  - text: "2. Move Mindy to the rotation (or leave her in the shadows as a good backup for a Fax Machine swap)"
+  - text: "3. Whatever we want! (If applicable)"
+  - text: "Season 21: Mechs Good, and everyone is home :)"
+  - text: "If the Fridays decide not to cooperate with a Lady swap this season, this is an alternative set of wills that we could target this season, which gets us back on track just as quickly, albeit without Lady."
+  - text: "1. Foreshadow Mindy for Bottles"
+  - text: "2. Transfuse a Batter"
+  - text: "3. Enrich Life of the Party"
+  - text: "I know this is a lot and can be confusing, there's a flow chart describing all the different paths it could take pinned in Hall of Wisdom for anyone with further questions"
 
 - name: "Disaster Mitigation (Level 1)"
   owner: "Rob"
