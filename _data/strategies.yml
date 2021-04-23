@@ -142,7 +142,7 @@
     - key: move
       target: "Evelton to the shadows"
     - key: foreshadow
-      target: "Cravel for Bottles"
+      target: "Polkadot Patterson for Evelton"
     - key: transfuse
       target: "Any stat used by the target player"
     - key: enrich
@@ -150,7 +150,7 @@
     - key: reform
       target: "Maximalist or Homebody"
     - key: alternate-trust
-      target: "Evelton or Polkadot Patterson (depending on partying)"
+      target: "Evelton"
 
 - name: "Disaster Mitigation (Level 2)"
   owner: "Rob"
