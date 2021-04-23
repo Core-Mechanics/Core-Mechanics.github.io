@@ -240,3 +240,12 @@
     - text: "Does not offer an immediate improvement to our batting (Bottles and Mindy are similar as batters)"
     - text: "Risks Evelton continuing to hoover up items or blessings that could go to better players"
     - text: "Does not protect us in the event somebody trys to plunder Polkadot Patterson, (with Patch Up the Leaks v1, they'll end up with Evelton instead)"
+
+- name: "Third Will Shenanigans"
+  owner: "hillexed"
+  description: "Some possible shenanignas to use our third will on - either double reforming Jaylen (along with the Garages), or alternating Evelton again."
+  options:
+    - key: reform
+      target: "Flickering on Jaylen"
+    - key: alternate-trust
+      target: "Evelton"
