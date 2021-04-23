@@ -218,3 +218,36 @@
   options:
     - key: plunder
       target: "Zoey Kirchner"
+
+- name: "Patch Up the Leaks (v1.)"
+  owner: "Astrid"
+  description: "These two each solve a major pain point in our lineup and rotation, both function well individually (but better together), and don't create any real risks or liabilities in terms of other teams' actions. I can't think of any significant cons to any of these, so do let me know if I've missed anything."
+  details:
+    - text: "Foreshadow Evelton for Alto"
+    - text: "- Swaps an awful batter for a pretty great one"
+    - text: "- If Alto ends up getting plundered, we get final picks, and they end up with Eviltwin >:)"
+    - text: "- Narratively satisfying. Love the PolkaBat."
+    - text: "Move Kofi to the Shadows (doesn't matter which shadows)"
+    - text: "- Kofi isn't great but not horrible, they might Fax but wouldn't do so quickly - moving gets Kofi out right away."
+    - text: "- Thins our rotation to three great pitchers"
+    - text: "- If Garages' Jaylen move hits, we're down to two great pitchers (Streamline anyone?)"
+  options:
+    - key: foreshadow
+      target: "Evelton for Polkadot Patterson"
+    - key: move
+      target: "Kofi to the shadows"
+
+- name: "Patch Up the Leaks (v2.)"
+  owner: "Rob"
+  description: "A variant of the above, but swapping Bottles for Mindy instead of Alto for Evelton"
+  options:
+    - key: foreshadow
+      target: "Bottles for Mindy"
+    - key: move
+      target: "Kofi to the shadows"
+  pros:
+    - text: "Helps us get back to having a top-tier rotation by having Mindy ready to fax into action"
+    - text: "Maintains the possibility of Evelton roaming, shortening our lineup."
+  cons:
+    - text: "Does not offer an immediate improvement to our batting (Bottles and Mindy are similar as batters)"
+    - text: "Risks Evelton continuing to hoover up items or blessings that could go to better players"
