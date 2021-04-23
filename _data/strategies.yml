@@ -228,8 +228,37 @@
     - key: reform
       target: "Evelton + Roamin'"
 
-- name: "Construction Project"
-  owner: "Rob"
+- name: "Tanking Lite"
+  owner: "FractalWasp"
+  description: "This idea is based on us getting free wills this season, which at this point is looking pretty likely. The goal is to prep us for one more season of strong partying, and set us up for an even stronger season after. It's partially based on project streamline and it's idea for an eventual 1 strong rotation. The goal is to move our best pitcher(at this point jolene) to the shadows, leaving us with a weaker rotation, and enrich the team with life of the party. We also could foreshadow another strong pitcher, which would give us some early losses before being fixed by fax machine. Hopefully with this strat we can buff our lineup, get free wills again to fix our rotation at the end of next season, and have that be less work with a smaller rotation. Also, doing this will buff our strongest pitchers during the shadow move, and when they get brought back out by fax machine buff another potential hitter."
+  options:
+    - key: move
+      target: "Our best pitcher, to the shadows'"
+    - key: enrich
+      target: "Life of the Party'"
+    - key: foreshadow
+      target: "A second strong pitcher'"
+
+- name: "Zoey's home(speed)run"
+  owner: "Phyr#8998"
   description: "Prioritise stadium renovation over blessings this season."
   details:
-    - text: "Blessings this season are likely to get around a million votes, meaning we have to spend around a hundred million coins to expect to win one. Instead, we could push to maximise our stadium renovations this season, potentially getting up to three choices if the options look good (four is probably out of our budget, sadly). A third renovation means forgoing roughly 1/3rd of a mediocre blessing, or 1/12th of a top-end one."
+    - text: "1. Get Zoey on the idol board."
+    - text: "2. Plunder Zoey."
+    - text: "3. ..."
+    - text: "4. Profit"
+    - text: "The risks of Plundering Zoey right now are fairly slim."
+    - text: "The Steaks want to foreshadow her with Forrest Best make us send back a player from Shadow Rotation if it goes through. None of those are noteworthy."
+    - text: "If this does not work out the player to be sent back will be from our rotation, currently consisting of Kofi Gildehaus, Jaylen Hotdogfingers, Shirai  McElroy and Jolene Willowtree. The first two are fine in terms of exchange (we won't be able to hold on to Jaylen anyway). The other two are beloved pitchers of our team and would not make the Plunder worthwhile if we lost them. However due to the high amount of votes put into Move Shirai -> Shadow Lineup and Forshadow Jolene <-> Kelvin Andante, the risk of losing them is migitated as we will just get them back after losing them or they aren't eligible anymore because they are already in the shadows."
+    - text: "The fax machine will pull them out again next season."
+    - text: "Why Plunder now? We could wait for next season, to see if the Steaks' foreshadow goes through. But if it does we could as well just plunder now. If it doesn't there is no guarantee that the Steaks' will try again as they might have other fires to put out instead of bringing Forrest Best out of their shadows. The current situation with the votes to save our Core pitchers Shirai and Jolene allow us to make effective us of the already cast votes to get Zoey now instead of relying on external factors."
+  pros:
+    - text: "Get Zoey and get her now, the long we wait, the more likely it is that we might run into issues getting her back"
+    - text: "Effective reuse of already cast votes"
+    - text: "Most of the remaining votes can go to blessings"
+  cons:
+    - text: "Move, Forshadow or Plunder might not go through leaving gaps in the risk reduction"
+    - text: "The Garages might have cast vote to move Jaylen back to their team - increasing the odds to 2 out of 3 to send back a pitcher we want to keep. If the corresponding will fails to get through we'll be in a similar situation as with Zoey know."
+  options:
+    - key: plunder
+      target: "Zoey Kirchner"
