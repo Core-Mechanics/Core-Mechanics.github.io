@@ -43,8 +43,6 @@
     target: "5%"
   - key: power-chaarge
     target: "5%"
-  - key: set-the-table
-    target: "We should re-allocate up to 15% to this if party time makes it worthwhile"
 
 - name: "Project Streamline"
   owner: "zed 2"
