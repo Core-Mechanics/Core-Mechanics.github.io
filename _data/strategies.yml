@@ -44,6 +44,13 @@
   - key: power-chaarge
     target: "5%"
 
+- name: "ACID BLOOD"
+  owner: "Otter"
+  description: "Pretty self-explanatory, really."
+  options:
+  - key: xenomorph
+    target: "100%"
+
 - name: "What WILL You Choose"
   owner: "Gokimster"
   description: "This strategy is meant to work in tandem with other strategies and provides them with options for wills if they only rely on 1 or 2 to work."
