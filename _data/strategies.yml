@@ -44,24 +44,6 @@
   - key: power-chaarge
     target: "5%"
 
-- name: "Project Streamline"
-  owner: "zed 2"
-  description: "A modular plan with multiple exit points – PROJECT STREAMLINE is as complicated as you, the voters, want it to be."
-  details:
-    - text: "We are the Core Mechanics of Blaseball. What better way to live up to our name than to take advantage of the core mechanics of blaseball? Project Streamline will do just that via an innovative, never seen before system of wills and blessings designed to optimize our pitching rotation."
-    - text: "How would this work? Well, here's the main advantage of Project Streamline - it's modular! In stage one, we could choose to Move Jolene Willowtree (nb: if Jolene dies replace this with [best pitcher]) to the shadows, leaving us with a rotation that's 33.3% weak spot and sending us on a quick route to party time! Or, if we want to get our pitching back in the direction of looking good, we could give our new friend Alternate Dot a break with a Move to the shadows!"
-    - text: "We could end it there, on a three-pitcher rotation, or we could keep pushing those buttons."
-    - text: "After the siesta, we would then choose another pitcher to Move to the shadows. Depending on how things are looking post-siesta, we could double down on a tank strat by sending Mindy or Shirai into the Shadows, or optimize the rotation down to 2 by Moving the weakest pitcher."
-    - text: "Now we could end it there, on a two-pitcher rotation. Or we could push those buttons again!"
-    - text: "From our two remaining pitchers we would then choose another to Move to the shadows (either tripling down on the tank strat or sending our then weakest pitcher)."
-    - text: "So, a one pitcher rotation? Well, why? What's the benefit?"
-    - text: "The first one is, controversially, resilience: In the event of incineration, sharkbite, theft, wimdy, casual murder, reality breaking down etc, we can simply foreshadow and swap for another strong pitcher in storage. As part of this, we would also target any blessings or decrees or wills that boosted our shadows thus boosting them further. If we had a selection of strong pitchers and had good luck one season, we could rotate them anyway to make them harder targets for plunder."
-    - text: "Oh, speaking of plunder. Benefit number two: Having a one pitcher rotation means that if we want to flash the uno reverse card, we can do so easily. If we lose a pitcher we want back, then we get them on the idol board, stack plunder votes, and know exactly who we're going to send in return. Handy!"
-    - text: "And speaking of things that are handy, imagine having a season where five batters die and two get Consumed and maybe someone has a peanut allergy. Things are looking pretty dire. But not for long! We can bring out a pitcher who should probably definitely not be pitching and simply lose every game and get the party benefit and then turn things around with one will! Modularity is key!"
-  options:
-  - key: move
-    target: "Jolene (to the shadows)"
-
 - name: "What WILL You Choose"
   owner: "Gokimster"
   description: "This strategy is meant to work in tandem with other strategies and provides them with options for wills if they only rely on 1 or 2 to work."
@@ -138,7 +120,7 @@
     - text: "Also reduces the chances of the Wills we're deliberately targeting."
   options:
     - key: move
-      target: "Evelton to the shadows"
+      target: "Kofi to the shadows"
     - key: foreshadow
       target: "Polkadot Patterson for Evelton"
     - key: transfuse
