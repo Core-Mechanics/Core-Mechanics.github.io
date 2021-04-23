@@ -171,11 +171,11 @@
   - key: blood-drop
   - key: slime-drop
 
-- name: "Chorbtastrophe Mitigation (Level 1)"
+- name: "Disaster Mitigation (Level 1)"
   owner: "Rob"
   description: "Minimise the risk of Free Wills backfiring in our faces, by putting a small floor of known-safe votes into each non-controversial Will option."
   details:
-    - text: "If a team with Fax Machine (like us) plunders Chorby Soul this season, Chorby could get swapped into their shadows, making it almost impossible for the team to recover (shadow players do not get targeted by Consumer attacks, but still increase their frequency). For that reason we need to minimise that risk as much as possible."
+    - text: "If a team with Fax Machine (like us) manages to end up with Chorby Soul in their rotation this season, Chorby could get swapped into their shadows, making it almost impossible for the team to recover (shadow players do not get targeted by Consumer attacks, but still increase their frequency). For that reason we need to minimise that risk as much as possible."
     - text: "This option is intended to be used alongside a 'main' Will plan. The idea is to spread a small amount of our votes over many different options, to reduce the number of 'good' votes that are eliminated when one of our target Wills is selected."
     - text: "Any Wills that are part of the main plan should be omitted and treated as superseded by the targets from the main plan."
   pros:
@@ -196,9 +196,9 @@
     - key: alternate-trust
       target: "Evelton or Polkadot Patterson (depending on partying)"
 
-- name: "Chorbtastrophe Mitigation (Level 2)"
+- name: "Disaster Mitigation (Level 2)"
   owner: "Rob"
-  description: "Takes Chorbtastrophe Mitigation one step further, and also puts a 'safe' floor of votes into Plunder and Exchange, to reduce the risk of ending up with Chorby Soul in our shadows as far as possible."
+  description: "Takes Disaster Mitigation one step further, and also puts a 'safe' floor of votes into Plunder and Exchange, to reduce the risk of ending up with Chorby Soul in our shadows or a similar Will disaster as far as possible."
   details:
     - text: "The more we spread our votes, the more we reduce the chance of plundering Chorby Soul (as less of our votes are eliminated on each successful Will)."
     - text: "Plunder votes are particularly powerful here, as they will always be counted against any votes to plunder Chorby we may have."
