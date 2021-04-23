@@ -206,7 +206,7 @@
     - key: plunder
       target: "Zoey Kirchner"
 
-- name: "Patch Up the Leaks (v1)"
+- name: "Patch Up the Leaks (Evelton variant)"
   owner: "Astrid"
   description: "These two each solve a major pain point in our lineup and rotation, both function well individually (but better together), and don't create any real risks or liabilities in terms of other teams' actions. I can't think of any significant cons to any of these, so do let me know if I've missed anything."
   details:
@@ -224,7 +224,7 @@
     - key: move
       target: "Kofi to the shadows"
 
-- name: "Patch Up the Leaks (v2)"
+- name: "Patch Up the Leaks (Mindy variant)"
   owner: "Rob"
   description: "A variant of the above, but swapping Bottles for Mindy instead of Alto for Evelton"
   options:
