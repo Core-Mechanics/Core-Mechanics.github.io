@@ -10,7 +10,6 @@
   weight: 5
   value: 4
   chance: 1
-  weight: 2
   type: Blessing
 
 - key: xenomorph
@@ -18,7 +17,6 @@
   value: 5
   chance: 1
   weight: 30
-  weight: 3
   type: Blessing
 
 - key: on-deck
@@ -57,7 +55,6 @@
   name: "Handcrafted Jersey Drop"
   value: 4
   chance: 2
-  weight: 2
   type: Blessing
 
 - key: ring-drop
@@ -84,7 +81,6 @@
   weight: 15
   value: 4
   chance: 2
-  weight: 2
   type: Blessing
 
 - key: slime-drop
@@ -188,7 +184,6 @@
   name: "Transfuse"
   weight: 20
   target: "A non-Evelton or Mindy batter of your choice, for batting - Bees is good if you aren't sure"
-  weight: 1
   type: Will
   definition: "Boosts a playe's stats in one of the four categories, but impair them in a random other one"
 
