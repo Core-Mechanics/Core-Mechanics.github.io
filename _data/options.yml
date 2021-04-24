@@ -68,7 +68,7 @@
 
 - key: necklace-drop
   name: "Handcrafted Necklace Drop"
-  weightL 5
+  weight: 5
   value: 3
   chance: 2
   type: Blessing
