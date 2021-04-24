@@ -57,11 +57,6 @@ title: Election Ratings
       </strong>
     </div>
   {% endif %}
-  {% if option.weight > 0 %}
-    <div class="vote-share">
-      Recommended vote share: <strong>{{option.weight | times: 100.0 | divided_by: total_weight | round}}%</strong><br/>
-    </div>
-  {% endif %}
   {% if option.definition %}
     <br/>
     <em>{{option.definition}}</em>
