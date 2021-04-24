@@ -172,13 +172,11 @@
   type: Will
   target: "Maximalist is a good option for this"
   definition: "Re-roll a modification on one of our players, replacing it with a different modification"
-  review: "Lady has been flagged up as a particular target - if she finished the season Underperforming we could reroll that, otherwise we could reroll Homebody to make her overperform permanently.." 
 
 - key: alternate-trust
   name: "Alternate Trust"
   type: Will
   definition: "Convert one of our players to an Alternate, re-rolling their stats and granting them a mystery benefit"
-  review: "Combining two Wills into one is tempting, but most of our players risk coming out weaker than before as an Alternate and Trusts have been weak so far."
 
 - key: transfuse
   name: "Transfuse"
@@ -198,10 +196,8 @@
   name: "Equivalent Exchange"
   type: Will
   definition: "Swap a chosen player for a player from a team in the opposite subleague. They must be within two stars of one another"
-  review: "Trading players can be a sensitive subject - we'll generally only recommend it if there's a plan with strong support from both teams."
 
 - key: plunder
   name: "Plunder"
   type: Will
   definition: "Swap for a player from the idol board, sending a random player back"
-  review: "Trading players can be a sensitive subject - we'll generally only recommend it if there's a plan with strong support from both teams."
