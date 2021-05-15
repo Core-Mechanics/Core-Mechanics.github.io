@@ -14,31 +14,49 @@
 
 - key: slow-build
   name: "Slow Build"
+  weight: 3
+  value: 4
+  chance: 2
+  type: Blessing
+
+- key: flex
+  name: "Flex"
+  weight: 4
+  value: 4
+  chance: 3
+  type: Blessing
+
+- key: shadow-of-the-bats
+  name: "Shadow of the Bats"
+  weight: 4
+  value: 4
+  chance: 2
+  type: Blessing
+
+- key: fax-numbers
+  name: "Fax Numbers"
   weight: 4
   value: 4
   chance: 2
   type: Blessing
   
-  
 - key: move
   name: "Move"
-  target: "Mindy to shadows lineup"
-  weight: 30
+  target: "Mindy Kugel to the shadow rotation"
+  weight: 2
   type: Will
   definition: "Move a player to a different position on the team. This can include moves in and out of the shadows"
 
 - key: foreshadow
   name: "Foreshadow"
-  target: "Either Mindy for Bottles or Evelton for Polkadot Patterson"
-  weight: 30
   type: Will
   definition: "Swap a player in the team's Shadows with a player in the roster"
 
 - key: reform
   name: "Reform"
-  weight: 10
+  weight: 1
   type: Will
-  target: "Maximalist is a good option for this"
+  target: "Mild on Jaylen Hotdogfingers"
   definition: "Re-roll a modification on one of our players, replacing it with a different modification"
 
 - key: alternate-trust
@@ -46,26 +64,24 @@
   type: Will
   definition: "Convert one of our players to an Alternate, re-rolling their stats and granting them a mystery benefit"
 
-- key: transfuse
-  name: "Transfuse"
-  weight: 20
-  target: "A non-Evelton or Mindy batter of your choice, for batting - Bees is good if you aren't sure"
+- key: shadow-infuse
+  name: "Shadow Infuse"
+  weight: 2
+  target: "Polkadot Patterson's batting"
   type: Will
-  definition: "Boosts a playe's stats in one of the four categories, but impair them in a random other one"
+  definition: "Boosts a shadow playe's stats in one of the four categories"
 
-- key: enrich
-  name: "Enrich"
-  target: "Life of the Party"
-  weight: 10
+- key: item-move
+  name: "Item Move"
   type: Will
-  definition: "Choose one of several temporary buffs to the team for a season."
+  definition: "Move an item between players."
 
 - key: equivalent-exchange
   name: "Equivalent Exchange"
   type: Will
   definition: "Swap a chosen player for a player from a team in the opposite subleague. They must be within two stars of one another"
 
-- key: plunder
-  name: "Plunder"
+- key: shadow-revoke
+  name: "Shadow Revoke"
   type: Will
-  definition: "Swap for a player from the idol board, sending a random player back"
+  definition: "Exile a player from the shadows to another team"
