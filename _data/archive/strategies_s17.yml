@@ -1,0 +1,236 @@
+- name: "Distributed System"
+  owner: "Rob"
+  description: "Distribute our blessing votes with the aim of maximising the impact of each vote cast."
+  details:
+    - text: "This plan uses the following principles, to maximise the expected returns on our blessing investment:"
+    - text: "(1) Prioritising blessings with a high expected-value to expected-votes ratio"
+    - text: "(2) Spreading over multiple blessings, to reduce competition with ourselves"
+    - text: "(3) Investing more in high-value low-chance blessings than high-chance low-value blessings (since we can spend more votes on them before we start competing with ourselves)."
+    - text: "The crate blessings were chosen to avoid pitchers (too many we don't want to use as pitchers long-term) and focus on item types that boost high-impact stats"
+  options:
+  - key: xenomorph
+    target: "30%"
+  - key: dexterity-drop
+    target: "15%"
+  - key: jersey-drop
+    target: "15%"
+  - key: last-not-least
+    target: "10%"
+  - key: buddies
+    target: "5%"
+  - key: necklace-drop
+    target: "5%"
+  - key: slime-drop
+    target: "5%"
+  - key: blood-drop
+    target: "5%"
+  - key: jersey-run
+    target: "5%"
+  - key: power-chaarge
+    target: "5%"
+
+- name: "ACID BLOOD"
+  owner: "Otter"
+  description: "Pretty self-explanatory, really."
+  options:
+  - key: xenomorph
+    target: "100%"
+
+- name: "What WILL You Choose"
+  owner: "Gokimster"
+  description: "This strategy is meant to work in tandem with other strategies and provides them with options for wills if they only rely on 1 or 2 to work."
+  details:
+    - text: "Statistically speaking it is easier to ensure good outcomes on wills with fewer votes if you spread your votes on more than 2 ( or 3 if we get a bonus will ). Ensuring we get 2 out of 3 wills is easier than ensuring 2 out of 2. To increase our chances of getting a good outcome in the election, I propose we modularly add wills to our chosen strategy."
+    - text: "These would be wills that compliment it or don't act against it. For example if the chosen strategy only has 2 targeted wills and we don't end up in the bottom 4, we would choose the top priority will from the list below that works with the strategy. If we get one extra will from being in the bottom 4, we would choose the top 2 wills from the list that work with the strategy."
+    - text: "Priority 1: Transfuse Someone in our Lineup"
+    - text: "Transfuse is a strong will and we still need to improve our bats, the target is to be determined once games end and could be approached similarly to last season where people choose who they want to vote for. This could also change to Transfusing a pitcher pending bad things happening during the season to one of our current 3 pitcher stars (Mindy, Shirai and Jolene)"
+    - text: "Priority 2: Foreshadow Mindy"
+    - text: "Mindy is in our Line-up currently, with the current wills we have, we can't easily add her back into the rotation (We would either need to increase our rotation size with Move or spend 2 seasons to get her into the shadows and then back out into the rotation via Foreshadow). Since this is something that we will want to do in the future, Foreshadowing mindy now for either a potential good Pitcher (Like Cravel or Torus) or a potential good Batter would get Mindy closer to going back in rotation when we need her, give her a shadow boost and give one of our shadow players an opportunity to party. Note that this might be dangerous if we decide to Punder Zoey and the Steaks foreshadow her - the target would need to be chosen accordingly from where we know zoey won't have a chance to switch with Mindy."
+    - text: "Priority 3: Enrich for Life of the Party"
+    - text: "Mechs like to Party! We on average have partied more than any other team in blaseball. Making those parties more impactful is only going to make Party Time sweeter! This works very well  paired with strategies that have us perform really badly next season, but is also a very viable option for middle of the road strategies. It's only not as good if we expect to make a good push for a playoff spot, limiting our party time days, in which case we could Enrich Fourth Strike (this is highly unlikely, but is an option)"
+    - text: "Priority 4: Reform"
+    - text: "Reform won't do a lot for us currently, we don't have any generally bad Mods on our team, the only one being Homebody which is a mixed bag. If the above will options aren't compatible with the plan chosen or if we need another option (due to getting a 3rd will) it's still a relatively safe Will. We have multiple targets for it:"
+    - text: "Maximalist on Gia or a Pitcher - these mods are going to proc very rarely and we could get something better."
+    - text: "Homebody on Lady - it makes her inconsisten across the season an more importantly in playoffs (We suspect Overperforming/Underperforming will be removed when it gets rerolled, but it's something to keep in mind as rerolling it if she ends the season Underperforming has a very small chance of leaving her with permanent Underperforming). Triple Threat - if one of our pitchers ends the season with Triple Threat, which with Sweetener we have a decent chance of happening, we could reroll it to get a free mod (I do not suggest doing this mid season since this strategy is supposed to compliment other strategies, not compete with them)."
+    - text: "If we do end up chosing reform as a filler Will option, I suggest we do a poll on which one of these options we choose, or we could let people choose individually (similar to Transfuse)"
+    - text: "Note that I have excluded Plunder Zoey and Move from this spread - the reasons are it is very likely these are going to be used for the main strategy or be incompatible with it. If the main strategy uses Foreshadow and not Move, replace the Foreshadow Mindy options with Move Mindy."
+  options:
+  - key: transfuse
+    target: Someone in our lineup"
+  - key: foreshadow
+    target: "Mindy for a potentially good player from the shadows"
+  - key: enrich
+    target: "Life of the Party"
+  - key: "reform"
+    target: "Many possibilities!"
+
+- name: "Retool The Mechs"
+  owner: "Putin'sSideChick"
+  description: "Retool the Mechs is a Long term strategy plan geared towards returning the Mechs to contention as quickly as possible. It also explicitly lays out options for us to get both Lady and Zoey back, if their new teams are willing to make the trade back as has been indicated."
+  options:
+  - key: foreshadow
+    target: "Combs for Bottles"
+  - key: transfuse
+    target: "A batter, TBD"
+  - key: enrich
+    target: "Life of the Party"
+  details:
+  - text: "This would likely happen over 3-4 seasons, as it relies heavily on the use of Foreshadow, Move, and Plunder to get our players back where we want them. Ideally, the plan would go off like this, though this does rely heavily on cooperation from the Firefighters and Steaks. The Steaks have told us that they will try to Shadow Zoey to cooperate, but we do not have official word from the Fridays, though it has been rumored that they are interested in cooperating."
+  - text: "Season 17 Election (This Season): "
+  - text: "1. Foreshadow Combs for Bottles"
+  - text: "2. Tranfuse a Batter"
+  - text: "3. Enrich Life of the Party"
+  - text: "Season 18 Election:"
+  - text: "1. Plunder Lady Matsuyama"
+  - text: "2. Transfuse a Batter"
+  - text: "3. Whatever we want! (If applicable)"
+  - text: "Season 19 Election:"
+  - text: "1. Foreshadow Mindy for Lady"
+  - text: "2. Plunder Zoey Kirchner"
+  - text: "3. Whatever we want! (If applicable)"
+  - text: "Season 20 Election:"
+  - text: "1. Foreshadow our worst pitcher for Zoey (if she hasn't been brought in by the Fax Machine)"
+  - text: "2. Move Mindy to the rotation (or leave her in the shadows as a good backup for a Fax Machine swap)"
+  - text: "3. Whatever we want! (If applicable)"
+  - text: "Season 21: Mechs Good, and everyone is home :)"
+  - text: "If the Fridays decide not to cooperate with a Lady swap this season, this is an alternative set of wills that we could target this season, which gets us back on track just as quickly, albeit without Lady."
+  - text: "1. Foreshadow Mindy for Bottles"
+  - text: "2. Transfuse a Batter"
+  - text: "3. Enrich Life of the Party"
+  - text: "I know this is a lot and can be confusing, there's a flow chart describing all the different paths it could take pinned in Hall of Wisdom for anyone with further questions"
+
+- name: "Disaster Mitigation (Level 1)"
+  owner: "Rob"
+  description: "Minimise the risk of Free Wills backfiring in our faces, by putting a small floor of known-safe votes into each non-controversial Will option."
+  details:
+    - text: "If a team with Fax Machine (like us) manages to end up with Chorby Soul in their rotation this season, Chorby could get swapped into their shadows, making it almost impossible for the team to recover (shadow players do not get targeted by Consumer attacks, but still increase their frequency). For that reason we need to minimise that risk as much as possible."
+    - text: "This option is intended to be used alongside a 'main' Will plan. The idea is to spread a small amount of our votes over many different options, to reduce the number of 'good' votes that are eliminated when one of our target Wills is selected."
+    - text: "Any Wills that are part of the main plan should be omitted and treated as superseded by the targets from the main plan."
+  pros:
+    - text: "Reduces the chance of disaster at the election somewhat."
+  cons:
+    - text: "Also reduces the chances of the Wills we're deliberately targeting."
+  options:
+    - key: move
+      target: "Kofi to the shadows"
+    - key: foreshadow
+      target: "Polkadot Patterson for Evelton"
+    - key: transfuse
+      target: "Any stat used by the target player"
+    - key: enrich
+      target: "Life of the Party"
+    - key: reform
+      target: "Maximalist or Homebody"
+    - key: alternate-trust
+      target: "Evelton"
+
+- name: "Disaster Mitigation (Level 2)"
+  owner: "Rob"
+  description: "Takes Disaster Mitigation one step further, and also puts a 'safe' floor of votes into Plunder and Exchange, to reduce the risk of ending up with Chorby Soul in our shadows or a similar Will disaster as far as possible."
+  details:
+    - text: "The more we spread our votes, the more we reduce the chance of plundering Chorby Soul (as less of our votes are eliminated on each successful Will)."
+    - text: "Plunder votes are particularly powerful here, as they will always be counted against any votes to plunder Chorby we may have."
+  options:
+    - key: plunder
+      target: "Ideally a player in another team's shadows - failing that, a good batter."
+    - key: equivalent-exchange
+      target: "Kofi for a good pitcher"
+  pros:
+    - text: "Reduces the chance of disaster at the election even more."
+  cons:
+    - text: "These Wills are more controversial, and may make us unpopular with the rest of the league."
+    - text: "This makes it more difficult for us to estimate how many dangerous votes we need to offset."
+
+- name: "Evel2 Roamin' Homin' Boogaloo"
+  owner: "LilacianLegends (Lilac)"
+  description: "This is just us reforming Evel2's \"Roamin'\" mod so that they stick with the team.  Considering they've already been bounced around and are generally not a good player, them attaching themself to another team is otherwise inevitable and \"saddles\" that random team with a bad player. Strategically, that's not bad for us. Overall, though, Reform would be a strong pull into our team culture of betterment of self instead of sweeping less desirable players under the rug- as well as the idea that the Core has a home for everyone who needs it."
+  pros:
+    - text: "Evel2 will almost definitely party, there is so much time to party this season"
+    - text: "At least semi-synergizes with the other current strats and potential tanking, since Evel2's stats aren't great"
+    - text: "We're almost definitely getting Free Wills by now, so this ensures our third might be something we already took into consideration"
+  cons:
+    - text: "Evel2 might pull a Kelvin and just not party (for tanking, this is theoretically also a pro)"
+    - text: "Uses up a Will if it goes through"
+    - text: "Doesn't really have specifically useful strat benefits- mostly for community solidarity"
+  options:
+    - key: reform
+      target: "Evelton + Roamin'"
+
+- name: "Tanking Lite"
+  owner: "FractalWasp"
+  description: "This idea is based on us getting free wills this season, which at this point is looking pretty likely. The goal is to prep us for one more season of strong partying, and set us up for an even stronger season after. It's partially based on project streamline and it's idea for an eventual 1 strong rotation. The goal is to move our best pitcher(at this point jolene) to the shadows, leaving us with a weaker rotation, and enrich the team with life of the party. We also could foreshadow another strong pitcher, which would give us some early losses before being fixed by fax machine. Hopefully with this strat we can buff our lineup, get free wills again to fix our rotation at the end of next season, and have that be less work with a smaller rotation. Also, doing this will buff our strongest pitchers during the shadow move, and when they get brought back out by fax machine buff another potential hitter."
+  options:
+    - key: move
+      target: "Our best pitcher, to the shadows'"
+    - key: enrich
+      target: "Life of the Party'"
+    - key: foreshadow
+      target: "A second strong pitcher'"
+
+- name: "Zoey's home(speed)run"
+  owner: "Phyr#8998"
+  description: "Plunder Zoey ASAP."
+  details:
+    - text: "1. Get Zoey on the idol board."
+    - text: "2. Plunder Zoey."
+    - text: "3. ..."
+    - text: "4. Profit"
+    - text: "The risks of Plundering Zoey right now are fairly slim."
+    - text: "The Steaks want to foreshadow her with Forrest Best make us send back a player from Shadow Rotation if it goes through. None of those are noteworthy."
+    - text: "If this does not work out the player to be sent back will be from our rotation, currently consisting of Kofi Gildehaus, Jaylen Hotdogfingers, Shirai  McElroy and Jolene Willowtree. The first two are fine in terms of exchange (we won't be able to hold on to Jaylen anyway). The other two are beloved pitchers of our team and would not make the Plunder worthwhile if we lost them. However due to the high amount of votes put into Move Shirai -> Shadow Lineup and Forshadow Jolene <-> Kelvin Andante, the risk of losing them is migitated as we will just get them back after losing them or they aren't eligible anymore because they are already in the shadows."
+    - text: "The fax machine will pull them out again next season."
+    - text: "Why Plunder now? We could wait for next season, to see if the Steaks' foreshadow goes through. But if it does we could as well just plunder now. If it doesn't there is no guarantee that the Steaks' will try again as they might have other fires to put out instead of bringing Forrest Best out of their shadows. The current situation with the votes to save our Core pitchers Shirai and Jolene allow us to make effective us of the already cast votes to get Zoey now instead of relying on external factors."
+  pros:
+    - text: "Get Zoey and get her now, the long we wait, the more likely it is that we might run into issues getting her back"
+    - text: "Effective reuse of already cast votes"
+    - text: "Most of the remaining votes can go to blessings"
+  cons:
+    - text: "Move, Forshadow or Plunder might not go through leaving gaps in the risk reduction"
+    - text: "The Garages might have cast vote to move Jaylen back to their team - increasing the odds to 2 out of 3 to send back a pitcher we want to keep. If the corresponding will fails to get through we'll be in a similar situation as with Zoey know."
+  options:
+    - key: plunder
+      target: "Zoey Kirchner"
+
+- name: "Patch Up the Leaks (Evelton variant)"
+  owner: "Astrid"
+  description: "These two each solve a major pain point in our lineup and rotation, both function well individually (but better together), and don't create any real risks or liabilities in terms of other teams' actions. I can't think of any significant cons to any of these, so do let me know if I've missed anything."
+  details:
+    - text: "Foreshadow Evelton for Alto"
+    - text: "- Swaps an awful batter for a pretty great one"
+    - text: "- If Alto ends up getting plundered, we get final picks, and they end up with Eviltwin >:)"
+    - text: "- Narratively satisfying. Love the PolkaBat."
+    - text: "Move Kofi to the Shadows (doesn't matter which shadows)"
+    - text: "- Kofi isn't great but not horrible, they might Fax but wouldn't do so quickly - moving gets Kofi out right away."
+    - text: "- Thins our rotation to three great pitchers"
+    - text: "- If Garages' Jaylen move hits, we're down to two great pitchers (Streamline anyone?)"
+  options:
+    - key: foreshadow
+      target: "Evelton for Polkadot Patterson"
+    - key: move
+      target: "Kofi to the shadows"
+
+- name: "Patch Up the Leaks (Mindy variant)"
+  owner: "Rob"
+  description: "A variant of the above, but swapping Bottles for Mindy instead of Alto for Evelton"
+  options:
+    - key: foreshadow
+      target: "Bottles for Mindy"
+    - key: move
+      target: "Kofi to the shadows"
+  pros:
+    - text: "Helps us get back to having a top-tier rotation by having Mindy ready to fax into action"
+    - text: "Maintains the possibility of Evelton roaming, shortening our lineup."
+    - text: "More likely to be able to party next season."
+  cons:
+    - text: "Does not offer an immediate improvement to our batting (Bottles and Mindy are similar as batters)"
+    - text: "Risks Evelton continuing to hoover up items or blessings that could go to better players"
+    - text: "Does not protect us in the event somebody trys to plunder Polkadot Patterson, (with Patch Up the Leaks v1, they'll end up with Evelton instead)"
+
+- name: "Third Will Shenanigans"
+  owner: "hillexed"
+  description: "Some possible shenanignas to use our third will on - either double reforming Jaylen (along with the Garages), or alternating Evelton again."
+  options:
+    - key: reform
+      target: "Flickering on Jaylen"
+    - key: alternate-trust
+      target: "Evelton"

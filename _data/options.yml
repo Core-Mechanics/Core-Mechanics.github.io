@@ -1,160 +1,28 @@
-- key: buddies
-  name: "Buddies"
-  weight: 5
-  value: 4
-  chance: 2
+- key: targeted-evolution
+  name: "Targeted Evolution"
+  weight: 3
+  value: 3
+  chance: 3
   type: Blessing
 
-- key: power-chaarge
-  name: "Power Chaarge"
-  weight: 5
-  value: 4
-  chance: 1
-  type: Blessing
-
-- key: xenomorph
-  name: "Xenomorph"
+- key: a-blood-type
+  name: "A Blood Type"
+  weight: 4
   value: 5
   chance: 1
-  weight: 30
   type: Blessing
 
-- key: on-deck
-  name: "On Deck"
-  value: 1
-  chance: 1
-  type: Blessing
-
-- key: jersey-run
-  weight: 5
-  name: "Jerseys Supply Run"
-  value: 3
-  chance: 3
-  type: Blessing
-
-- key: ring-run
-  name: "Rings Supply Run"
-  value: 2
-  chance: 3
-  type: Blessing
-
-- key: necklace-run
-  name: "Necklace Supply Run"
-  value: 2
-  chance: 3
-  type: Blessing
-
-- key: sunglasses-run
-  name: "Sunglasses Supply Run"
-  value: 2
-  chance: 3
-  type: Blessing
-
-- key: jersey-drop
-  weight: 15
-  name: "Handcrafted Jersey Drop"
+- key: slow-build
+  name: "Slow Build"
+  weight: 4
   value: 4
   chance: 2
   type: Blessing
-
-- key: ring-drop
-  name: "Handcrafted Ring Drop"
-  value: 3
-  chance: 2
-  type: Blessing
-
-- key: necklace-drop
-  name: "Handcrafted Necklace Drop"
-  weight: 5
-  value: 3
-  chance: 2
-  type: Blessing
-
-- key: sunglasses-drop
-  name: "Handcrafted Sunglasses Drop"
-  value: 3
-  chance: 2
-  type: Blessing
-
-- key: dexterity-drop
-  name: "Dexterity Crate Drop"
-  weight: 15
-  value: 4
-  chance: 2
-  type: Blessing
-
-- key: slime-drop
-  name: "Slime Crate Drop"
-  weight: 5
-  value: 3
-  chance: 2
-  type: Blessing
-
-- key: blood-drop
-  name: "Blood Crate Drop"
-  weight: 5
-  value: 3
-  chance: 2
-  type: Blessing
-
-- key: intelligence-drop
-  name: "Intelligence Crate Drop"
-  value: 3
-  chance: 2
-  type: Blessing
-
-- key: in-a-pinch
-  name: "In a Pinch"
-  value: 1
-  chance: 3
-  type: Blessing
-
-- key: patchwork
-  name: "Patchwork"
-  value: 1
-  chance: 3
-  type: Blessing
-
-- key: alternator
-  name: "Alternator"
-  value: 1
-  chance: 2
-  type: Blessing
-
-- key: strange-attractor
-  name: "Strange Attractor"
-  value: 1
-  chance: 2
-  type: Blessing
-
-- key: last-not-least
-  name: "Last Not Least"
-  weight: 10
-  value: 4
-  chance: 1
-  type: Blessing
-
-- key: set-the-table
-  name: "Set the Table"
-  value: 0
-  chance: 3
-  type: Blessing
-
-- key: grounded
-  name: "Grounded"
-  value: 1
-  chance: 2
-  type: Blessing
-
-- key: untouchable
-  name: "Untouchable"
-  value: 3
-  chance: 1
-  type: Blessing
+  
   
 - key: move
   name: "Move"
-  target: "Kofi to shadows lineup"
+  target: "Mindy to shadows lineup"
   weight: 30
   type: Will
   definition: "Move a player to a different position on the team. This can include moves in and out of the shadows"

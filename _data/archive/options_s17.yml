@@ -1,0 +1,203 @@
+- key: buddies
+  name: "Buddies"
+  weight: 5
+  value: 4
+  chance: 2
+  type: Blessing
+
+- key: power-chaarge
+  name: "Power Chaarge"
+  weight: 5
+  value: 4
+  chance: 1
+  type: Blessing
+
+- key: xenomorph
+  name: "Xenomorph"
+  value: 5
+  chance: 1
+  weight: 30
+  type: Blessing
+
+- key: on-deck
+  name: "On Deck"
+  value: 1
+  chance: 1
+  type: Blessing
+
+- key: jersey-run
+  weight: 5
+  name: "Jerseys Supply Run"
+  value: 3
+  chance: 3
+  type: Blessing
+
+- key: ring-run
+  name: "Rings Supply Run"
+  value: 2
+  chance: 3
+  type: Blessing
+
+- key: necklace-run
+  name: "Necklace Supply Run"
+  value: 2
+  chance: 3
+  type: Blessing
+
+- key: sunglasses-run
+  name: "Sunglasses Supply Run"
+  value: 2
+  chance: 3
+  type: Blessing
+
+- key: jersey-drop
+  weight: 15
+  name: "Handcrafted Jersey Drop"
+  value: 4
+  chance: 2
+  type: Blessing
+
+- key: ring-drop
+  name: "Handcrafted Ring Drop"
+  value: 3
+  chance: 2
+  type: Blessing
+
+- key: necklace-drop
+  name: "Handcrafted Necklace Drop"
+  weight: 5
+  value: 3
+  chance: 2
+  type: Blessing
+
+- key: sunglasses-drop
+  name: "Handcrafted Sunglasses Drop"
+  value: 3
+  chance: 2
+  type: Blessing
+
+- key: dexterity-drop
+  name: "Dexterity Crate Drop"
+  weight: 15
+  value: 4
+  chance: 2
+  type: Blessing
+
+- key: slime-drop
+  name: "Slime Crate Drop"
+  weight: 5
+  value: 3
+  chance: 2
+  type: Blessing
+
+- key: blood-drop
+  name: "Blood Crate Drop"
+  weight: 5
+  value: 3
+  chance: 2
+  type: Blessing
+
+- key: intelligence-drop
+  name: "Intelligence Crate Drop"
+  value: 3
+  chance: 2
+  type: Blessing
+
+- key: in-a-pinch
+  name: "In a Pinch"
+  value: 1
+  chance: 3
+  type: Blessing
+
+- key: patchwork
+  name: "Patchwork"
+  value: 1
+  chance: 3
+  type: Blessing
+
+- key: alternator
+  name: "Alternator"
+  value: 1
+  chance: 2
+  type: Blessing
+
+- key: strange-attractor
+  name: "Strange Attractor"
+  value: 1
+  chance: 2
+  type: Blessing
+
+- key: last-not-least
+  name: "Last Not Least"
+  weight: 10
+  value: 4
+  chance: 1
+  type: Blessing
+
+- key: set-the-table
+  name: "Set the Table"
+  value: 0
+  chance: 3
+  type: Blessing
+
+- key: grounded
+  name: "Grounded"
+  value: 1
+  chance: 2
+  type: Blessing
+
+- key: untouchable
+  name: "Untouchable"
+  value: 3
+  chance: 1
+  type: Blessing
+  
+- key: move
+  name: "Move"
+  target: "Kofi to shadows lineup"
+  weight: 30
+  type: Will
+  definition: "Move a player to a different position on the team. This can include moves in and out of the shadows"
+
+- key: foreshadow
+  name: "Foreshadow"
+  target: "Either Mindy for Bottles or Evelton for Polkadot Patterson"
+  weight: 30
+  type: Will
+  definition: "Swap a player in the team's Shadows with a player in the roster"
+
+- key: reform
+  name: "Reform"
+  weight: 10
+  type: Will
+  target: "Maximalist is a good option for this"
+  definition: "Re-roll a modification on one of our players, replacing it with a different modification"
+
+- key: alternate-trust
+  name: "Alternate Trust"
+  type: Will
+  definition: "Convert one of our players to an Alternate, re-rolling their stats and granting them a mystery benefit"
+
+- key: transfuse
+  name: "Transfuse"
+  weight: 20
+  target: "A non-Evelton or Mindy batter of your choice, for batting - Bees is good if you aren't sure"
+  type: Will
+  definition: "Boosts a playe's stats in one of the four categories, but impair them in a random other one"
+
+- key: enrich
+  name: "Enrich"
+  target: "Life of the Party"
+  weight: 10
+  type: Will
+  definition: "Choose one of several temporary buffs to the team for a season."
+
+- key: equivalent-exchange
+  name: "Equivalent Exchange"
+  type: Will
+  definition: "Swap a chosen player for a player from a team in the opposite subleague. They must be within two stars of one another"
+
+- key: plunder
+  name: "Plunder"
+  type: Will
+  definition: "Swap for a player from the idol board, sending a random player back"
