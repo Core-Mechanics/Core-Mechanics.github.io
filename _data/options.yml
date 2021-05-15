@@ -42,7 +42,7 @@
   
 - key: move
   name: "Move"
-  target: "Mindy Kugel to the shadow rotation"
+  target: "Mindy Kugel to the shadow lineup"
   weight: 2
   type: Will
   definition: "Move a player to a different position on the team. This can include moves in and out of the shadows"
