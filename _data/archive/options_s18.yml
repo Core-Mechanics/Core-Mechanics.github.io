@@ -1,46 +1,62 @@
-- key: underhanded
-  name: "Underhanded"
-  weight: 6
+- key: targeted-evolution
+  name: "Targeted Evolution"
+  weight: 3
+  value: 3
+  chance: 3
+  type: Blessing
+
+- key: a-blood-type
+  name: "A Blood Type"
+  weight: 4
   value: 5
   chance: 1
+  type: Blessing
+
+- key: slow-build
+  name: "Slow Build"
+  weight: 3
+  value: 4
+  chance: 2
+  type: Blessing
+
+- key: flex
+  name: "Flex"
+  weight: 4
+  value: 4
+  chance: 3
+  type: Blessing
+
+- key: shadow-of-the-bats
+  name: "Shadow of the Bats"
+  weight: 3
+  value: 4
+  chance: 2
   type: Blessing
 
 - key: fax-numbers
   name: "Fax Numbers"
-  weight: 5
-  value: 5
-  chance: 1
+  weight: 3
+  value: 4
+  chance: 2
   type: Blessing
-
-- key: gaudy
-  name: "Gaudy"
-  weight: 5
-  value: 3
-  chance: 3
-  type: Blessing
-
-- key: other
-  name: "Any of Shadow of the Bats, the Practices, Junk Baller, Cover Letter and Targeted Evolution"
-  weight: 4
-  value: 3
-  chance: 3
-  type: Blessing
-
+  
 - key: move
   name: "Move"
+  target: "Mindy Kugel to the shadow lineup"
+  weight: 2
   type: Will
   definition: "Move a player to a different position on the team. This can include moves in and out of the shadows"
 
 - key: foreshadow
   name: "Foreshadow"
-  target: "Bees Taswell for Agan Harrison"
-  weight: 2
   type: Will
   definition: "Swap a player in the team's Shadows with a player in the roster"
 
 - key: reform
   name: "Reform"
+  weight: 1
   type: Will
+  target: "Mild on Jaylen Hotdogfingers"
   definition: "Re-roll a modification on one of our players, replacing it with a different modification"
 
 - key: alternate-trust
@@ -57,8 +73,6 @@
 
 - key: item-move
   name: "Item Move"
-  target: "Bees Taswell's Noise-Canceling Ambitious Blood Cap to Mindy Kugel"
-  weight: 1
   type: Will
   definition: "Move an item between players."
 
